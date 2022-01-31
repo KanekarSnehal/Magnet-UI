@@ -1,0 +1,20 @@
+.main-container {
+    grid-area: main;
+    padding: 2.5rem;
+    overflow-y: scroll;
+    height: 82vh;
+}
+
+.main-title {
+    text-align: center;
+    font-size: 3.5rem;
+    color: var(--secondary-color);
+    margin: 2rem auto 0.5rem;
+}
+
+.main-description {
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 2rem;
+}
