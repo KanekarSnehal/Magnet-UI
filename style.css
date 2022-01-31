@@ -20,6 +20,7 @@ a:hover {
     .main-container {
         height: 100vh;
         overflow-y: scroll;
+        font-size: 1.5rem;
     }
 
     .main-logo {
@@ -28,7 +29,6 @@ a:hover {
     }
 
     .main-description {
-        font-size: 1.5rem;
         width: 90%;
         text-align: center;
     }
@@ -37,7 +37,6 @@ a:hover {
 @media (max-width: 540px) {
     .main-container {
         padding: 0.2rem;
-
     }
 
     .main-title {

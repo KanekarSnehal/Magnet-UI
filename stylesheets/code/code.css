@@ -1,0 +1,7 @@
+.code-snippet-display{
+    box-sizing: border-box;
+    padding: 1rem 0;
+    background-color: #FAFAFA;
+    margin: 2rem 0;
+    overflow: auto;
+}
