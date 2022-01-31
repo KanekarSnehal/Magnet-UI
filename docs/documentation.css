@@ -1,0 +1,19 @@
+@import url(/Magnet-UI/stylesheets/base/reset.css);
+@import url(/Magnet-UI/stylesheets/base/variables.css);
+@import url(/Magnet-UI/stylesheets/helpers/typography.css);
+@import url(/Magnet-UI/stylesheets/helpers/spacing.css);
+/* @import url(/Magnet-UI/button.css); */
+@import url(/Magnet-UI/stylesheets/layout/header.css);
+@import url(/Magnet-UI/stylesheets/layout/main.css);
+@import url(/Magnet-UI/stylesheets/layout/nav.css);
+@import url(/Magnet-UI/stylesheets/code/code.css);
+.documentation-page{
+    display: grid;
+    grid-template-columns: 0.8fr 1fr 1fr 1fr;
+    grid-template-rows: 0.2fr 5fr 0.3fr;
+    grid-template-areas: "header header header header"
+                            "nav main main main"
+                            "nav main main main";    
+                                    
+}
+
