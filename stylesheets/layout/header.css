@@ -1,0 +1,32 @@
+.header-container {
+    grid-area: header;
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position:sticky;
+    height: 12vh;
+    top: 0;
+    background-color: var(--bg-color);
+}
+.nav-link {
+    font-size: 1.5rem;
+    margin-left: auto;
+    font-weight: 600;
+}
+.logo-container {
+    width: 20rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;  
+}
+
+.brand-logo {
+    width: 3.5rem;
+}
+
+.brand-name {
+    font-size: 2rem;
+    color: var(--secondary-color);
+    font-weight: bolder;
+}

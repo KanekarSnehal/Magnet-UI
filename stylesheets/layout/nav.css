@@ -1,0 +1,10 @@
+.docs-navbar-container {
+    grid-area: nav;
+    font-size: 1.5rem;
+    padding: 2rem;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    height: 100%;
+    background-color: var(--bg-color);
+    overflow-y: scroll;
+    height: 87vh;
+}
