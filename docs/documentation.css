@@ -7,6 +7,9 @@
 @import url(/Magnet-UI/stylesheets/layout/main.css);
 @import url(/Magnet-UI/stylesheets/layout/nav.css);
 @import url(/Magnet-UI/stylesheets/code/code.css);
+@import url(/Magnet-UI/components/alert.css);
+@import url(/Magnet-UI/components/avatar.css);
+
 .documentation-page{
     display: grid;
     grid-template-columns: 0.8fr 1fr 1fr 1fr;
@@ -17,3 +20,10 @@
                                     
 }
 
+.component-container-display{
+    border: 2px solid gainsboro;
+    border-radius: 2rem;
+    padding: 1.5rem;
+    margin: 1rem 0rem 2rem 0rem;
+    width: 100%;
+}
