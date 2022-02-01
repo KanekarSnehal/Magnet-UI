@@ -4,18 +4,19 @@
 *::before,
 *::after {
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
     margin: 0;
     padding:0;
 }
 
 html,
 body {
+  font-family: 'Roboto', sans-serif;
     height: 100%;
     text-size-adjust: 100%;
 }
 
 body {
+  
     line-height: 1.5;
     -webkit-font-smoothing: antialiased; 
 }
