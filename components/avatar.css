@@ -1,0 +1,41 @@
+.avatar-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: baseline;
+    width: 100%;
+    gap: 4rem;
+}
+
+.avatar{
+    width: 100%;
+    border-radius: 50%;
+    height: 2rem;
+    border: 2px solid white;
+}
+
+.avatar-initials{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primary-color);
+}
+.avatar-lg-size{
+    width: 15rem;
+    height: 15rem;
+}
+
+.avatar-md-size{
+    width: 10.5rem;
+    height: 10.5rem;
+}
+
+.avatar-sm-size{
+    width: 8.5rem;
+    height: 8.5rem;
+}
+
+.avatar-xs-size{
+    width: 5.5rem;
+    height: 5.5rem;
+}
