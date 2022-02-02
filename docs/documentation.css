@@ -9,6 +9,8 @@
 @import url(/Magnet-UI/stylesheets/code/code.css);
 @import url(/Magnet-UI/components/alert.css);
 @import url(/Magnet-UI/components/button.css);
+@import url(/Magnet-UI/components/avatar.css);
+@import url(/Magnet-UI/components/badge.css);
 
 .documentation-page{
     display: grid;
