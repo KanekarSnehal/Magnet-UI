@@ -3,22 +3,22 @@
 *,
 *::before,
 *::after {
-    box-sizing: border-box;
-    margin: 0;
-    padding:0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 html,
 body {
   font-family: 'Roboto', sans-serif;
-    height: 100%;
-    text-size-adjust: 100%;
+  height: 100%;
+  text-size-adjust: 100%;
 }
 
 body {
-  
-    line-height: 1.5;
-    -webkit-font-smoothing: antialiased; 
+
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
 }
 
 img,
@@ -26,15 +26,15 @@ picture,
 video,
 canvas,
 svg {
-    display: block;
-    max-width: 100%;
+  display: block;
+  max-width: 100%;
 }
 
 input,
 button,
 textarea,
 select {
-    font: inherit;
+  font: inherit;
 }
 
 p,
@@ -44,44 +44,44 @@ h3,
 h4,
 h5,
 h6 {
-    overflow-wrap: break-word;
+  overflow-wrap: break-word;
 }
 
 ul {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 a {
-    text-decoration: none;
-    color: inherit;
-    width: inherit;
+  text-decoration: none;
+  color: inherit;
+  width: inherit;
 }
 
 a,
 button {
-    cursor: pointer;
+  cursor: pointer;
 }
 
-a:hover{
+a:hover {
   color: var(--primary-color);
 }
 
-  @media screen and (min-width: 600px) {
-    h1 {
-      font-size: 2.75rem;
-    }
-  
-    p {
-      font-size: 1.3rem;
-    }
+@media screen and (min-width: 600px) {
+  h1 {
+    font-size: 2.75rem;
   }
-  
-  @media screen and (min-width: 1000px) {
-    h1 {
-      font-size: 2.5rem;
-    }
-  
-    p {
-      font-size: 1.4rem;
-    }
+
+  p {
+    font-size: 1.3rem;
   }
+}
+
+@media screen and (min-width: 1000px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  p {
+    font-size: 1.4rem;
+  }
+}
