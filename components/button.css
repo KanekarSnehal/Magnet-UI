@@ -1,0 +1,115 @@
+.btn-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+}
+
+.btn {
+    margin: 1rem;
+    height: 4.5rem;
+    font-size: 1.5rem;
+    border-radius: 2em;
+    padding: 1.1rem 1.5rem;
+    display: inline-block;
+    border: none;
+}
+
+.primary-btn {
+    color: var(--complement-btn-text-color);
+    background-color: var(--primary-color);
+}
+
+.secondary-btn {
+    color: var(--primary-color);
+    background-color: var(--primary-lighter);
+}
+
+.error-btn{
+    color: var(--complement-btn-text-color);
+    background-color: var(--error-color);
+}
+
+.success-btn{
+    color: var(--complement-btn-text-color);
+    background-color: var(--success-color);
+}
+
+.primary-btn:hover {
+    background-color: var(--primary-darker);
+}
+
+.secondary-btn:hover {
+    background-color: var(--secondary-lighter);
+}
+
+.error-btn:hover{
+    background-color: var(--error-dark-color);
+}
+
+.success-btn:hover{
+    background-color: var(--success-dark-color);
+}
+
+.outline-primary-btn{
+    color: var(--primary-color);
+    background-color: var(--bg-color);
+    border: 2px solid var(--primary-color);
+}
+
+.outline-secondary-btn{
+    color: var(--secondary-color);
+    background-color: var(--bg-color);
+    border: 2px solid var(--secondary-color);
+}
+
+.outline-error-btn{
+    color: var(--error-color);
+    background-color: var(--bg-color);
+    border: 2px solid var(--error-color);
+}
+
+.outline-success-btn{
+    color: var(--success-color);
+    background-color: var(--bg-color);
+    border: 2px solid var(--success-color);
+}
+
+.outline-primary-btn:hover{
+    background-color: var(--primary-lighter);
+}
+
+.outline-secondary-btn:hover{
+    background-color: var(--secondary-lighter);
+}
+
+.outline-error-btn:hover{
+    background-color: var(--error-light-color);
+}
+
+.outline-success-btn:hover{
+    background-color: var(--success-light-color);
+}
+
+.link-button{
+    text-decoration: underline;
+    font-weight: 600;
+    color: var(--primary-color);
+}
+
+.link-button:hover{
+    color: var(--secondary-color);
+}
+
+.btn-disabled{
+    pointer-events: none;
+    opacity: 0.6;
+}
+
+.float-action-btn{
+    background-color: var(--primary-color);
+    color: var(--complement-btn-text-color);
+}
+
+.float-action-btn:hover{
+    color: var(--secondary-color);
+}
