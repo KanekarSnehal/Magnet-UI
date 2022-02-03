@@ -2,7 +2,6 @@
 @import url(/Magnet-UI/stylesheets/base/variables.css);
 @import url(/Magnet-UI/stylesheets/helpers/typography.css);
 @import url(/Magnet-UI/stylesheets/helpers/spacing.css);
-/* @import url(/Magnet-UI/button.css); */
 @import url(/Magnet-UI/stylesheets/layout/header.css);
 @import url(/Magnet-UI/stylesheets/layout/main.css);
 @import url(/Magnet-UI/stylesheets/layout/nav.css);
@@ -11,6 +10,7 @@
 @import url(/Magnet-UI/components/button.css);
 @import url(/Magnet-UI/components/avatar.css);
 @import url(/Magnet-UI/components/badge.css);
+@import url(/Magnet-UI/components/card.css);
 
 .documentation-page{
     display: grid;
