@@ -1,0 +1,105 @@
+.horizontal-card-container {
+    display: flex;
+    width: 100%;
+    background-color: #fff;
+    margin: 2rem 0;
+    box-shadow: 3px 3px 10px rgb(0 0 0 / 0.2);
+    position: relative;
+}
+
+.horizontal-card-container .card-image {
+    width: 15rem;
+    height: 15rem;
+}
+
+.vertical-cards-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.vertical-card-container {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    position: relative;
+    background-color: #fff;
+    margin: 2rem 1rem;
+    box-shadow: 3px 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.card-content {
+    padding: 1rem;
+}
+
+.card-author {
+    color: rgb(123, 128, 133);
+}
+
+.card-info {
+    margin: 0 auto;
+}
+
+.card-content .btn-container {
+    justify-content: flex-start;
+}
+
+.text-light-weight {
+    font-weight: 100;
+}
+
+.text-regular-weight {
+    font-weight: 600;
+}
+
+.text-strike-through {
+    text-decoration: line-through;
+}
+
+.primary-text-color {
+    color: var(--primary-dark);
+}
+
+.card-badge-container {
+    position: relative;
+}
+
+.card-badge {
+    border-radius: 0rem 2rem;
+    padding: 0.6rem;
+    position: absolute;
+    top: 1rem;
+    left: 0;
+    color: white;
+    background-color: var(--secondary-color);
+}
+
+.card-badge-dismiss{
+    border-radius: 2rem 0rem 0rem 2rem;
+    padding: 0.5rem 1rem;
+    position: absolute;
+    top: 0rem;
+    right: 0;
+    color: white;
+    background-color: var(--primary-dark);
+}
+
+.card-text-overlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 25rem;
+    bottom: 30rem;
+    right: 3rem;
+    left: 3rem;
+    color: var(--secondary-darker);
+    font-weight: bolder;
+    background-color: var(--error-light-color);
+}
+
+.overlay-container {
+    opacity: 0.5;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
