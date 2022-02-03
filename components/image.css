@@ -1,0 +1,39 @@
+.img-container{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: 4rem;
+}
+
+.img-responsive{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.img-round{
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.img-square{
+    width: 15rem;
+    height: 15rem;
+    object-fit: cover;
+}
+
+.img-sm{
+    width: 10rem;
+    height: 10rem;
+}
+
+.img-md{
+    width: 12.5rem;
+    height: 12.5rem;
+}
+
+.img-lg{
+    width: 15rem;
+    height: 15rem;
+}

@@ -11,6 +11,7 @@
 @import url(/Magnet-UI/components/avatar.css);
 @import url(/Magnet-UI/components/badge.css);
 @import url(/Magnet-UI/components/card.css);
+@import url(/Magnet-UI/components/image.css);
 
 .documentation-page{
     display: grid;
