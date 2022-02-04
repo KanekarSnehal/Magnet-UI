@@ -1,0 +1,78 @@
+.form-col {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0;
+}
+
+.form-label {
+    font-size: 1.25rem;
+    margin-bottom: 0.75rem;
+}
+
+.form-label-required-field:after {
+    content: "*";
+    color: var(--primary-color);
+    font-size: 2rem;
+}
+
+.input-sm {
+    font-size: 1rem;
+    padding: 0.25rem 0.5rem;
+}
+
+.input-md {
+    font-size: 1.25rem;
+    padding: 0.6rem 0.625rem;
+}
+
+.input-lg {
+    font-size: 1.5rem;
+    padding: 0.6rem 0.625rem;
+}
+
+.input-round {
+    border-radius: 2rem;
+}
+
+.input-corner-rounded {
+    border-radius: 0.5rem;
+}
+
+.valid-input {
+    background-color: var(--success-light-color);
+    color: var(--success-color);
+    border: 1px solid var(--success-color);
+}
+
+.invalid-input {
+    background-color: var(--error-light-color);
+    color: var(--error-color);
+    border: 1px solid var(--error-color);
+}
+
+.invalid-txt {
+    color: var(--error-color);
+}
+
+.valid-txt {
+    color: var(--success-color);
+}
+
+.input-text-area {
+    padding: 1rem;
+    width: 100%;
+    min-height: 5rem;
+    border-radius: 4px;
+    font-size: 1.6rem;
+    border: 2px solid #ccc;
+}
+
+.input-checkbox-container {
+    margin: 1rem;
+
+}
+
+.input-checkbox {
+    width: 1.5rem;
+    height: 1.5rem;
+}
