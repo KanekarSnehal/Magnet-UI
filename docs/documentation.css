@@ -12,6 +12,7 @@
 @import url(/Magnet-UI/components/badge.css);
 @import url(/Magnet-UI/components/card.css);
 @import url(/Magnet-UI/components/image.css);
+@import url(/Magnet-UI/components/input.css);
 
 .documentation-page{
     display: grid;
