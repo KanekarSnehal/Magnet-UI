@@ -13,14 +13,6 @@
     list-style-type: square;
 }
 
-.list-style-circle {
-    list-style-type: circle;
-}
-
-.list-style-square {
-    list-style-type: square;
-}
-
 .list-style-small-alpha {
     list-style-type: lower-alpha;
 }
