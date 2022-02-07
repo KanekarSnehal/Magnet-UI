@@ -33,6 +33,7 @@
 
 .card-author {
     color: rgb(123, 128, 133);
+    font-size: var(--size-16);
 }
 
 .card-info {

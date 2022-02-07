@@ -21,21 +21,25 @@
     background-color: var(--primary-color);
 }
 .avatar-lg-size{
-    width: 15rem;
-    height: 15rem;
+    width: 13.5rem;
+    height: 13.5rem;
+    font-size: var(--size-32);
 }
 
 .avatar-md-size{
     width: 10.5rem;
     height: 10.5rem;
+    font-size: var(--size-24);
 }
 
 .avatar-sm-size{
     width: 8.5rem;
     height: 8.5rem;
+    font-size: var(--size-20);
 }
 
 .avatar-xs-size{
     width: 5.5rem;
     height: 5.5rem;
+    font-size: var(--size-16);
 }

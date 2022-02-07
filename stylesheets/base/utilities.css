@@ -1,0 +1,86 @@
+/* Padding */
+.px-8 {
+    padding: 0 8px;
+}
+
+.px-16 {
+    padding: 0 1rem;
+}
+
+.px-32 {
+    padding: 0 2rem;
+}
+
+.py-8 {
+    padding: 8px 0;
+}
+
+.py-16 {
+    padding: 1rem 0;
+}
+
+
+/* Margin */
+.mx-8 {
+    margin: 0 var(--size-8);
+}
+
+.mx-16 {
+    margin: 0 var(--size-16);
+}
+
+.my-8 {
+    margin: var(--size-8) 0;
+}
+
+.my-16 {
+    margin: var(--size-16) 0;
+}
+
+.my-32 {
+    margin: var(--size-32) 0;
+}
+
+.my-48 {
+    margin: var(--size-48) 0;
+}
+
+.mx-auto {
+    margin: 0 auto;
+}
+
+.ml-auto {
+    margin-left: auto;
+}
+
+.mr-auto {
+    margin-right: auto;
+}
+
+.ml-16 {
+    margin-left: var(--size-16);
+}
+
+.ml-32 {
+    margin-left: var(--size-32);
+}
+
+.ml-64 {
+    margin-left: var(--size-64);
+}
+
+.mr-sm {
+    margin-right: var(--size-8);
+}
+
+.mr-16 {
+    margin-right: var(--size-16);
+}
+
+.mr-32 {
+    margin-right: var(--size-32);
+}
+
+.mr-64 {
+    margin-right: var(--size-64);
+}

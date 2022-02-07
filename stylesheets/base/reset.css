@@ -66,22 +66,31 @@ a:hover {
   color: var(--primary-color);
 }
 
-@media screen and (min-width: 600px) {
-  h1 {
-    font-size: 2.75rem;
-  }
 
-  p {
-    font-size: 1.3rem;
-  }
+h1,
+.h1 {
+  font-size: var(--size-52);
+  margin: var(--size-16) 0;
 }
 
-@media screen and (min-width: 1000px) {
-  h1 {
-    font-size: 2.5rem;
-  }
+h2,
+.h2 {
+  font-size: var(--size-32);
+  margin: var(--size-8) 0;
+}
 
-  p {
-    font-size: 1.4rem;
-  }
+h3,
+.h3 {
+  font-size: var(--size-28);
+  margin: var(--size-4) 0;
+}
+
+h4,
+.h4 {
+  font-size: var(--size-20);
+}
+
+p {
+  font-weight: 500;
+  font-size: var(--size-24);
 }

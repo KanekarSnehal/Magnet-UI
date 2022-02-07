@@ -1,6 +1,6 @@
 .main-container {
     grid-area: main;
-    padding: 2.5rem;
+    padding: 0 2rem;
     overflow-y: scroll;
     height: 88vh;
     font-size: 1.5rem;
@@ -19,3 +19,5 @@
     margin: 0 auto;
     font-size: 2rem;
 }
+
+

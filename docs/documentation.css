@@ -13,10 +13,11 @@
 @import url(/Magnet-UI/components/card.css);
 @import url(/Magnet-UI/components/image.css);
 @import url(/Magnet-UI/components/input.css);
+@import url(/Magnet-UI/stylesheets/base/utilities.css);
 
 .documentation-page{
     display: grid;
-    grid-template-columns: 0.8fr 1fr 1fr 1fr;
+    grid-template-columns: 0.6fr 1fr 1fr 1fr;
     grid-template-rows: 0.2fr 5fr 0.3fr;
     grid-template-areas: "header header header header"
                             "nav main main main"
@@ -30,4 +31,55 @@
     padding: 1.5rem;
     margin: 1rem 0rem 2rem 0rem;
     width: 100%;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: var(--size-12);
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: var(--secondary-color);
+    border-radius:var(--size-8);
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--primary-dark);
+  }
+
+
+  .active{
+    background-color: var(--secondary-dark);
+    color: var(--complement-btn-text-color);
+}
+
+  @media (max-width:1280px){
+
+    .documentation-page{
+      display: grid;
+      grid-template-columns: 0.6fr 1fr 1fr 1fr;
+      grid-template-rows: 0.2fr 5fr 0.3fr;
+      grid-template-areas: "header header header header"
+                            "nav nav nav nav"
+                            "main main main main";         
+  }
+    .nav-top-right .github,
+    .nav-top-right .home{
+        display: none;
+    } 
+    
+    .nav-top-right .hamburger{
+        display: block;
+    }
+
+    .navbar-container{
+        display: block;
+        width: 100%;
+        background-color: var(--primary-light);
+        position: sticky;
+        top: 0;
+        left: 0;
+    }
 }
