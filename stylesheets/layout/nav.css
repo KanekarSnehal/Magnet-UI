@@ -11,6 +11,6 @@
     display: none;
 }
 
-/* .docs-navbar-section{
-   
-} */
+.navbar-heading{
+    font-size: var(--size-24);
+}
