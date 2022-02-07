@@ -14,7 +14,7 @@
 @import url(/Magnet-UI/components/image.css);
 @import url(/Magnet-UI/components/input.css);
 @import url(/Magnet-UI/stylesheets/base/utilities.css);
-
+@import url(/Magnet-UI/components/list.css);
 .documentation-page{
     display: grid;
     grid-template-columns: 0.6fr 1fr 1fr 1fr;
@@ -31,6 +31,10 @@
     padding: 1.5rem;
     margin: 1rem 0rem 2rem 0rem;
     width: 100%;
+}
+
+.navbar-section ul {
+  list-style-type: none;
 }
 
 /* width */

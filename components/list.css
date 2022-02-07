@@ -1,0 +1,55 @@
+.list-container {
+    border-radius: 0.3rem;
+    background-color: var(--secondary-lighter);
+    padding: 1rem 2.5rem;
+    margin: 1rem;
+}
+
+.list-style-circle {
+    list-style-type: circle;
+}
+
+.list-style-square {
+    list-style-type: square;
+}
+
+.list-style-circle {
+    list-style-type: circle;
+}
+
+.list-style-square {
+    list-style-type: square;
+}
+
+.list-style-small-alpha {
+    list-style-type: lower-alpha;
+}
+
+.list-style-capital-alpha {
+    list-style-type: upper-alpha;
+}
+
+.list-style-small-roman {
+    list-style-type: lower-roman;
+}
+
+.list-style-capital-roman {
+    list-style-type: upper-roman;
+}
+
+.list-style-none{
+    list-style-type: none;
+}
+
+.list-inline-item:not(:last-of-type){
+    margin-right: 1.5rem;
+}
+
+.inline-list{
+    display: inline-flex;
+}
+
+.block-list{
+    display: inline-flex;
+    flex-direction: column;
+}
