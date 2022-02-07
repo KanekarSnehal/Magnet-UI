@@ -84,3 +84,7 @@
 .mr-64 {
     margin-right: var(--size-64);
 }
+
+.primary-color{
+    color: var(--primary-color);
+}
