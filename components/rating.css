@@ -1,0 +1,13 @@
+
+.rating-star-icon{
+    color: var(--secondary-lighter);
+}
+
+.rating-star-input{
+    width: 0;
+    opacity: 0;
+}
+
+.rating-star-input:checked + .rating-star-icon{
+    color: var(--yellow-color);
+}
