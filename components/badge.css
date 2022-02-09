@@ -36,27 +36,27 @@
 .profile-badge .avatar-lg-size~.badge {
     bottom: 1rem;
     right: 1.5rem;
-    height: 2.5rem;
-    min-width: 2.5rem;
-}
-
-.profile-badge .avatar-md-size~.badge {
-    right: 0.5em;
-    bottom: 0.4em;
     height: 2rem;
     min-width: 2rem;
 }
 
-.profile-badge .avatar-sm-size~.badge {
-    right: 0.5em;
-    bottom: 0.3em;
+.profile-badge .avatar-md-size~.badge {
+    right: 0.8em;
+    bottom: 0.6em;
     height: 1.6rem;
     min-width: 1.6rem;
 }
 
+.profile-badge .avatar-sm-size~.badge {
+    right: 0.6em;
+    bottom: 0.5em;
+    height: 1.4rem;
+    min-width: 1.4rem;
+}
+
 .profile-badge .avatar-xs-size~.badge {
     right: 0.2em;
-    bottom: 0.1em;
+    bottom: 0.2em;
     height: 1.2rem;
     min-width: 1.2rem;
 }
@@ -64,15 +64,16 @@
 
 .number-badge-iframe {
     padding: 2rem;
-    font-size: 3rem;
-    color: var(--primary-color);
+    font-size: 2rem;
+    color: var(--secondary-color);
 }
 
 .profile-badge .number-badge-iframe~.badge {
-    right: 0.6em;
-    top: 0.6em;
-    height: 2.2rem;
-    min-width: 2.2rem;
+    right: 1.2em;
+    top: 1.2em;
+    height: 1.5rem;
+    min-width: 1.5rem;
     text-align: center;
     color: #fff;
+    font-size: 1rem;
 }
