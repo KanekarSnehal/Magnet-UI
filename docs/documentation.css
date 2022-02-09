@@ -6,17 +6,8 @@
 @import url(/stylesheets/layout/main.css);
 @import url(/stylesheets/layout/nav.css);
 @import url(/stylesheets/code/code.css);
-@import url(/components/alert.css);
-@import url(/components/button.css);
-@import url(/components/avatar.css);
-@import url(/components/badge.css);
-@import url(/components/card.css);
-@import url(/components/image.css);
-@import url(/components/input.css);
 @import url(/stylesheets/base/utilities.css);
-@import url(/components/list.css);
-@import url(/components/rating.css);
-@import url(/components/typography.css);
+@import url(/magnet.css);
 .documentation-page{
     display: grid;
     grid-template-columns: 0.6fr 1fr 1fr 1fr;
