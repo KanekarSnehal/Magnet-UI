@@ -16,6 +16,7 @@
 @import url(/Magnet-UI/stylesheets/base/utilities.css);
 @import url(/Magnet-UI/components/list.css);
 @import url(/Magnet-UI/components/rating.css);
+@import url(/Magnet-UI/components/typography.css);
 .documentation-page{
     display: grid;
     grid-template-columns: 0.6fr 1fr 1fr 1fr;
