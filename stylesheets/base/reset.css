@@ -68,35 +68,35 @@ a:hover {
 h1,
 .h1 {
   font-size: var(--size-48);
-  margin: var(--size-16) 0;
+  
 }
 
 h2,
 .h2 {
   font-size: var(--size-40);
-  margin: var(--size-14) 0;
+  
 }
 
 h3,
 .h3 {
   font-size: var(--size-32);
-  margin: var(--size-12) 0;
+
 }
 
 h4,
 .h4 {
   font-size: var(--size-28);
-  margin: var(--size-10) 0;
+  
 }
 
 h5,
 .h5 {
   font-size: var(--size-24);
-  margin: var(--size-8) 0;
+ 
 }
 
 h6,
 .h6 {
   font-size: var(--size-20);
-  margin: var(--size-6) 0;
+ 
 }

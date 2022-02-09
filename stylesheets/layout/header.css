@@ -11,7 +11,7 @@
     background-color: var(--bg-color);
 }
 .nav-top-right {
-    font-size: var(--size-44);
+    font-size: var(--size-32);
     color: var(--secondary-color);
 }
 
@@ -23,11 +23,11 @@
 }
 
 .brand-logo {
-    width: 3.5rem;
+    width: 3rem;
 }
 
 .brand-name {
-    font-size: 2rem;
+    font-size: var(--size-24);
     color: var(--secondary-color);
     font-weight: bolder;
 }
