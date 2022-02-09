@@ -90,3 +90,34 @@ h6,
 .secondary-text-color {
     color: var(--secondary-color);
 }
+
+@media screen and (max-width: 768px) {
+
+    .h1,
+    h1 {
+        font-size: var(--size-32);
+    }
+
+    .h2,
+    h2 {
+        font-size:  var(--size-28);
+    }
+
+    .h3,
+    h3 {
+        font-size: var(--size-24);
+    }
+
+    .h4,
+    h4,
+    .h5,
+    h5,
+    .h6,
+    h6 {
+        font-size: var(--size-20);
+    }
+
+    .p-lg {
+        font-size:var(--size-20);
+    }
+}
