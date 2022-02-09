@@ -8,11 +8,10 @@
     <link rel="stylesheet" href="/docs/documentation.css">
     <script src="https://kit.fontawesome.com/f4d4a5026f.js" crossorigin="anonymous"></script>
     <link rel="icon" href="/assets/icon.png" type="image/x-icon" />
-    <title>Magnet-UI | Alerts</title>
+    <title>Magnet-UI | Images</title>
 </head>
 
 <body>
-
     <div class="documentation-page">
         <header class="header-container">
             <a href="/index.html" class="logo-container">
@@ -91,7 +90,7 @@
                     </li>
                     <li class="navbar-item">
                         <a href="/docs/docs-components/components/badge.html">
-                            <button class="btn outline-secondary-btn active">
+                            <button class="btn outline-secondary-btn">
                                 <i class="fas fa-id-badge mr-16">
                                 </i>Badge
                             </button>
@@ -112,7 +111,7 @@
                     </li>
                     <li class="navbar-item">
                         <a href="/docs/docs-components/components/image.html">
-                            <button class="btn outline-secondary-btn"><i class="fas fa-images mr-16"></i>Image</button>
+                            <button class="btn outline-secondary-btn active"><i class="fas fa-images mr-16"></i>Image</button>
                         </a>
                     </li>
                     <li class="navbar-item">
@@ -122,41 +121,41 @@
                         </a>
                     </li>
                     <li class="navbar-item">
-                        <a href="/docs/docs-components/components/input.html">
+                        <a href="/docs/docs-components/components/list.html">
                             <button class="btn outline-secondary-btn"><i class="fas fa-list mr-16"></i>List</button>
                         </a>
                     </li>
                     <li class="navbar-item">
-                        <a href="/docs/docs-components/components/input.html">
+                        <a href="/docs/docs-components/components/modal.html">
                             <button class="btn outline-secondary-btn"><i
                                     class="fas fa-comment-alt mr-16"></i></i>Modal</button>
                         </a>
                     </li>
                     <li class="navbar-item">
-                        <a href="/docs/docs-components/components/input.html">
+                        <a href="/docs/docs-components/components/rating.html">
                             <button class="btn outline-secondary-btn"><i
                                     class="fas fa-star-half-alt mr-16"></i>Rating</button>
                         </a>
                     </li>
                     <li class="navbar-item">
-                        <a href="/docs/docs-components/components/input.html">
+                        <a href="/docs/docs-components/components/navigation.html">
                             <button class="btn outline-secondary-btn"><i
                                     class="fas fa-compass mr-16"></i>Navigation</button>
                         </a>
                     </li>
                     <li class="navbar-item">
-                        <a href="/docs/docs-components/components/input.html">
+                        <a href="/docs/docs-components/components/toast.html">
                             <button class="btn outline-secondary-btn"><i
                                     class="fas fa-bread-slice mr-16"></i>Toast</button>
                         </a>
                     </li>
                     <li class="navbar-item">
-                        <a href="/docs/docs-components/components/input.html">
+                        <a href="/docs/docs-components/components/grid.html">
                             <button class="btn outline-secondary-btn"><i class="fas fa-th mr-16"></i>Grid</button>
                         </a>
                     </li>
                     <li class="navbar-item">
-                        <a href="/docs/docs-components/components/input.html">
+                        <a href="/docs/docs-components/components/slider.html">
                             <button class="btn outline-secondary-btn"><i
                                     class="fas fa-sliders-h mr-16"></i>Slider</button>
                         </a>
@@ -166,66 +165,60 @@
         </div>
 
         <main class="main-container">
-            <h1>Badge</h1>
-            <p>A badge is a counter shown on icons like cart, notification and avatars. It is also used to show online
-                and offline status of a person.</p>
+            <h1>Image</h1>
+            <p>Images can be responsive to fit the parent's width, and also can be customised to be round shaped.</p>
             <div class="component-container-display">
-                <h3>Profile Badge</h3>
-                <p>Profile Badge is used to show the current status of a user.
-                    It can be used with 4 variants : online | busy | away | offline</p>
-                <div class="badge-container">
-                    <div class="profile-badge">
-                        <img loading="lazy" src="/assets/avatar1.jpg" class="avatar avatar-lg-size" alt="avatar">
-                        <div class="badge badge-status-online"></div>
-                    </div>
-                    <div class="profile-badge">
-                        <img loading="lazy" src="/assets/avatar1.jpg" class="avatar avatar-md-size" alt="avatar">
-                        <div class="badge badge-status-busy"></div>
-                    </div>
-                    <div class="profile-badge">
-                        <img loading="lazy" src="/assets/avatar1.jpg" class="avatar avatar-sm-size" alt="avatar">
-                        <div class="badge badge-status-away"></div>
-                    </div>
-                    <div class="profile-badge">
-                        <img loading="lazy" src="/assets/avatar1.jpg" class="avatar avatar-xs-size" alt="avatar">
-                        <div class="badge badge-status-offline"></div>
-                    </div>           
-                </div>
+                <h3>Responsive Image</h3>
+                <img loading="lazy" src="/assets/res-img1.jpg" class="img-reponsive" alt="avatar">
             </div>
 
             <div class="code-snippet-display">
                 <code>
                     <iframe
-                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=night-owl&wt=none&l=auto&width=680&ds=true&dsyoff=0px&dsblur=60px&wc=true&wa=true&pv=46px&ph=59px&ln=false&fl=1&fm=Hack&fs=18px&lh=164%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522profile-badge%2522%253E%250A%2509%253Cimg%2520loading%253D%2522lazy%2522%2520src%253D%2522%252FMagnet-UI%252Fassets%252Favatar1.jpg%2522%2520class%253D%2522avatar%2520avatar-lg-size%2522%2520alt%253D%2522avatar%2522%253E%250A%2509%253Cdiv%2520class%253D%2522badge-bottom-right%2520badge-status-online%2522%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522profile-badge%2522%253E%250A%2509%253Cimg%2520loading%253D%2522lazy%2522%2520src%253D%2522%252FMagnet-UI%252Fassets%252Favatar1.jpg%2522%2520class%253D%2522avatar%2520avatar-md-size%2522%2520alt%253D%2522avatar%2522%253E%250A%2509%253Cdiv%2520class%253D%2522badge-bottom-right%2520badge-status-busy%2522%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522profile-badge%2522%253E%250A%2509%253Cimg%2520loading%253D%2522lazy%2522%2520src%253D%2522%252FMagnet-UI%252Fassets%252Favatar1.jpg%2522%2520class%253D%2522avatar%2520avatar-sm-size%2522%2520alt%253D%2522avatar%2522%253E%250A%2509%253Cdiv%2520class%253D%2522badge-bottom-right%2520badge-status-away%2522%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522profile-badge%2522%253E%250A%2509%253Cimg%2520loading%253D%2522lazy%2522%2520src%253D%2522%252FMagnet-UI%252Fassets%252Favatar1.jpg%2522%2520class%253D%2522avatar%2520avatar-xs-size%2522%2520alt%253D%2522avatar%2522%253E%250A%2509%253Cdiv%2520class%253D%2522badge-bottom-right%2520badge-status-offline%2522%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=night-owl&wt=none&l=auto&width=680&ds=true&dsyoff=0px&dsblur=60px&wc=true&wa=true&pv=46px&ph=59px&ln=false&fl=1&fm=Hack&fs=18px&lh=164%25&si=false&es=2x&wm=false&code=%2520%253Cimg%2520loading%253D%2522lazy%2522%2520src%253D%2522image%2520url%2522%2520class%253D%2522img-reponsive%2522%2520alt%253D%2522alt%2520text%2522%253E"
                     sandbox="allow-scripts allow-same-origin">
                   </iframe>
                 </code>
             </div>
 
             <div class="component-container-display">
-                <h3>Number badge</h3>
-                <p>To show cart or notification count, you can use number badge. </p>
-                <div class="badge-container">
-                    <div class="profile-badge">
-                        <i class="fas fa-cart-plus number-badge-iframe"></i>
-                        <div class="badge badge-status-away">9</div>
-                    </div>
-                    <div class="profile-badge">
-                        <i class="far fa-envelope number-badge-iframe"></i>
-                        <div class="badge badge-status-busy">16</div>
-                    </div>
+                <h3>Round Image</h3>
+                <div class="img-container">
+                    <img loading="lazy" src="/assets/res-img2.jpg" class="img-round img-lg" alt="cat image">
+                    <img loading="lazy" src="/assets/res-img2.jpg" class="img-round img-md" alt="cat image">
+                    <img loading="lazy" src="/assets/res-img2.jpg" class="img-round img-sm" alt="cat image">
                 </div>
+                
             </div>
 
             <div class="code-snippet-display">
                 <code>
                     <iframe
-                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=night-owl&wt=none&l=auto&width=680&ds=true&dsyoff=0px&dsblur=60px&wc=true&wa=true&pv=46px&ph=59px&ln=false&fl=1&fm=Hack&fs=18px&lh=164%25&si=false&es=2x&wm=false&code=%2520%2520%253Cdiv%2520class%253D%2522profile-badge%2522%253E%250A%2520%2520%2509%253Ci%2520class%253D%2522fas%2520fa-cart-plus%2520number-badge-iframe%2522%253E%253C%252Fi%253E%250A%2520%2520%2509%253Cdiv%2520class%253D%2522badge%2520badge-status-away%2522%253E9%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522profile-badge%2522%253E%250A%2520%2520%2509%253Ci%2520class%253D%2522far%2520fa-envelope%2520number-badge-iframe%2522%253E%253C%252Fi%253E%250A%2520%2520%2509%253Cdiv%2520class%253D%2522badge%2520badge-status-busy%2522%253E16%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E"
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=night-owl&wt=none&l=auto&width=680&ds=true&dsyoff=0px&dsblur=60px&wc=true&wa=true&pv=46px&ph=59px&ln=false&fl=1&fm=Hack&fs=18px&lh=164%25&si=false&es=2x&wm=false&code=%253Cimg%2520loading%253D%2522lazy%2522%2520src%253D%2522image%2520url%2522%2520class%253D%2522%2520img-round%2520img-lg%2522%2520alt%253D%2522alt%2520text%2522%253E%250A%253Cimg%2520loading%253D%2522lazy%2522%2520src%253D%2522image%2520url%2522%2520class%253D%2522img-round%2520img-md%2522%2520alt%253D%2522alt%2520text%2522%253E%250A%253Cimg%2520loading%253D%2522lazy%2522%2520src%253D%2522image%2520url%2522%2520class%253D%2522img-round%2520img-sm%2522%2520alt%253D%2522alt%2520text%2522%253E"
                     sandbox="allow-scripts allow-same-origin">
                   </iframe>
                 </code>
             </div>
-    </div>
+
+            <div class="component-container-display">
+                <h3>Square Image</h3>
+                <div class="img-container">
+                    <img loading="lazy" src="/assets/res-img2.jpg" class=" img-square img-lg" alt="cat image">
+                    <img loading="lazy" src="/assets/res-img2.jpg" class="img-square img-md" alt="cat image">
+                    <img loading="lazy" src="/assets/res-img2.jpg" class="img-square img-sm" alt="cat image">
+                </div>
+                
+            </div>
+
+            <div class="code-snippet-display">
+                <code>
+                    <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=night-owl&wt=none&l=auto&width=680&ds=true&dsyoff=0px&dsblur=60px&wc=true&wa=true&pv=46px&ph=59px&ln=false&fl=1&fm=Hack&fs=18px&lh=164%25&si=false&es=2x&wm=false&code=%253Cimg%2520loading%253D%2522lazy%2522%2520src%253D%2522image%2520url%2522%2520class%253D%2522%2520img-square%2520img-lg%2522%2520alt%253D%2522alt%2520text%2522%253E%250A%253Cimg%2520loading%253D%2522lazy%2522%2520src%253D%2522image%2520url%2522%2520class%253D%2522img-square%2520img-md%2522%2520alt%253D%2522alt%2520text%2522%253E%250A%253Cimg%2520loading%253D%2522lazy%2522%2520src%253D%2522image%2520url%2522%2520class%253D%2522img-square%2520img-sm%2522%2520alt%253D%2522alt%2520text%2522%253E"
+                    sandbox="allow-scripts allow-same-origin">
+                  </iframe>
+                </code>
+            </div>
+        </main>
 </body>
 
 </html>

@@ -1,14 +1,14 @@
 .main-container {
     grid-area: main;
-    padding: 2.5rem;
+    padding: 0 2rem;
     overflow-y: scroll;
     height: 88vh;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 .main-title {
     text-align: center;
-    font-size: 3.5rem;
+    font-size: 3rem;
     color: var(--secondary-color);
     margin: 2rem auto 0.5rem;
 }
@@ -17,5 +17,7 @@
     text-align: center;
     width: 80%;
     margin: 0 auto;
-    font-size: 2rem;
+    font-size: 1rem;
 }
+
+

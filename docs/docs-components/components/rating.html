@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="/docs/documentation.css">
     <script src="https://kit.fontawesome.com/f4d4a5026f.js" crossorigin="anonymous"></script>
     <link rel="icon" href="/assets/icon.png" type="image/x-icon" />
-    <title>Magnet-UI | Alerts</title>
+    <title>Magnet-UI | Rating</title>
 </head>
 
 <body>
@@ -91,7 +91,7 @@
                     </li>
                     <li class="navbar-item">
                         <a href="/docs/docs-components/components/badge.html">
-                            <button class="btn outline-secondary-btn active">
+                            <button class="btn outline-secondary-btn">
                                 <i class="fas fa-id-badge mr-16">
                                 </i>Badge
                             </button>
@@ -122,41 +122,41 @@
                         </a>
                     </li>
                     <li class="navbar-item">
-                        <a href="/docs/docs-components/components/input.html">
+                        <a href="/docs/docs-components/components/list.html">
                             <button class="btn outline-secondary-btn"><i class="fas fa-list mr-16"></i>List</button>
                         </a>
                     </li>
                     <li class="navbar-item">
-                        <a href="/docs/docs-components/components/input.html">
+                        <a href="/docs/docs-components/components/modal.html">
                             <button class="btn outline-secondary-btn"><i
                                     class="fas fa-comment-alt mr-16"></i></i>Modal</button>
                         </a>
                     </li>
                     <li class="navbar-item">
-                        <a href="/docs/docs-components/components/input.html">
-                            <button class="btn outline-secondary-btn"><i
+                        <a href="/docs/docs-components/components/rating.html">
+                            <button class="btn outline-secondary-btn active"><i
                                     class="fas fa-star-half-alt mr-16"></i>Rating</button>
                         </a>
                     </li>
                     <li class="navbar-item">
-                        <a href="/docs/docs-components/components/input.html">
+                        <a href="/docs/docs-components/components/navigation.html">
                             <button class="btn outline-secondary-btn"><i
                                     class="fas fa-compass mr-16"></i>Navigation</button>
                         </a>
                     </li>
                     <li class="navbar-item">
-                        <a href="/docs/docs-components/components/input.html">
+                        <a href="/docs/docs-components/components/toast.html">
                             <button class="btn outline-secondary-btn"><i
                                     class="fas fa-bread-slice mr-16"></i>Toast</button>
                         </a>
                     </li>
                     <li class="navbar-item">
-                        <a href="/docs/docs-components/components/input.html">
+                        <a href="/docs/docs-components/components/grid.html">
                             <button class="btn outline-secondary-btn"><i class="fas fa-th mr-16"></i>Grid</button>
                         </a>
                     </li>
                     <li class="navbar-item">
-                        <a href="/docs/docs-components/components/input.html">
+                        <a href="/docs/docs-components/components/slider.html">
                             <button class="btn outline-secondary-btn"><i
                                     class="fas fa-sliders-h mr-16"></i>Slider</button>
                         </a>
@@ -166,66 +166,44 @@
         </div>
 
         <main class="main-container">
-            <h1>Badge</h1>
-            <p>A badge is a counter shown on icons like cart, notification and avatars. It is also used to show online
-                and offline status of a person.</p>
+            <h1>Rating</h1>
+            <p>Rating components can be used as read-only badge or in reviews section. Can be used in reviews section as
+                form too.</p>
+
             <div class="component-container-display">
-                <h3>Profile Badge</h3>
-                <p>Profile Badge is used to show the current status of a user.
-                    It can be used with 4 variants : online | busy | away | offline</p>
-                <div class="badge-container">
-                    <div class="profile-badge">
-                        <img loading="lazy" src="/assets/avatar1.jpg" class="avatar avatar-lg-size" alt="avatar">
-                        <div class="badge badge-status-online"></div>
-                    </div>
-                    <div class="profile-badge">
-                        <img loading="lazy" src="/assets/avatar1.jpg" class="avatar avatar-md-size" alt="avatar">
-                        <div class="badge badge-status-busy"></div>
-                    </div>
-                    <div class="profile-badge">
-                        <img loading="lazy" src="/assets/avatar1.jpg" class="avatar avatar-sm-size" alt="avatar">
-                        <div class="badge badge-status-away"></div>
-                    </div>
-                    <div class="profile-badge">
-                        <img loading="lazy" src="/assets/avatar1.jpg" class="avatar avatar-xs-size" alt="avatar">
-                        <div class="badge badge-status-offline"></div>
-                    </div>           
-                </div>
+                <h3>Rating</h3>
+
+                <label>
+                    <input class="rating-star-input" type="checkbox" checked>
+                    <i class="fas fa-star rating-star-icon"></i>
+                </label>
+                <label>
+                    <input class="rating-star-input" type="checkbox" checked>
+                    <i class="fas fa-star rating-star-icon"></i>
+                </label>
+                <label>
+                    <input class="rating-star-input" type="checkbox" checked>
+                    <i class="fas fa-star rating-star-icon"></i>
+                </label>
+                <label>
+                    <input class="rating-star-input" type="checkbox">
+                    <i class="fas fa-star rating-star-icon"></i>
+                </label>
+                <label>
+                    <input class="rating-star-input" type="checkbox">
+                    <i class="fas fa-star rating-star-icon"></i>
+                </label>
             </div>
 
             <div class="code-snippet-display">
                 <code>
                     <iframe
-                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=night-owl&wt=none&l=auto&width=680&ds=true&dsyoff=0px&dsblur=60px&wc=true&wa=true&pv=46px&ph=59px&ln=false&fl=1&fm=Hack&fs=18px&lh=164%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522profile-badge%2522%253E%250A%2509%253Cimg%2520loading%253D%2522lazy%2522%2520src%253D%2522%252FMagnet-UI%252Fassets%252Favatar1.jpg%2522%2520class%253D%2522avatar%2520avatar-lg-size%2522%2520alt%253D%2522avatar%2522%253E%250A%2509%253Cdiv%2520class%253D%2522badge-bottom-right%2520badge-status-online%2522%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522profile-badge%2522%253E%250A%2509%253Cimg%2520loading%253D%2522lazy%2522%2520src%253D%2522%252FMagnet-UI%252Fassets%252Favatar1.jpg%2522%2520class%253D%2522avatar%2520avatar-md-size%2522%2520alt%253D%2522avatar%2522%253E%250A%2509%253Cdiv%2520class%253D%2522badge-bottom-right%2520badge-status-busy%2522%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522profile-badge%2522%253E%250A%2509%253Cimg%2520loading%253D%2522lazy%2522%2520src%253D%2522%252FMagnet-UI%252Fassets%252Favatar1.jpg%2522%2520class%253D%2522avatar%2520avatar-sm-size%2522%2520alt%253D%2522avatar%2522%253E%250A%2509%253Cdiv%2520class%253D%2522badge-bottom-right%2520badge-status-away%2522%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522profile-badge%2522%253E%250A%2509%253Cimg%2520loading%253D%2522lazy%2522%2520src%253D%2522%252FMagnet-UI%252Fassets%252Favatar1.jpg%2522%2520class%253D%2522avatar%2520avatar-xs-size%2522%2520alt%253D%2522avatar%2522%253E%250A%2509%253Cdiv%2520class%253D%2522badge-bottom-right%2520badge-status-offline%2522%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
-                    sandbox="allow-scripts allow-same-origin">
-                  </iframe>
+                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=night-owl&wt=none&l=auto&width=680&ds=true&dsyoff=0px&dsblur=60px&wc=true&wa=true&pv=46px&ph=59px&ln=false&fl=1&fm=Hack&fs=18px&lh=164%25&si=false&es=2x&wm=false&code=%253Clabel%253E%250A%2509%253Cinput%2520class%253D%2522rating-star-input%2522%2520type%253D%2522checkbox%2522%2520checked%253E%250A%2509%253Ci%2520class%253D%2522fas%2520fa-star%2520rating-star-icon%2522%253E%253C%252Fi%253E%250A%253C%252Flabel%253E%250A%253Clabel%253E%250A%2509%253Cinput%2520class%253D%2522rating-star-input%2522%2520type%253D%2522checkbox%2522%2520checked%253E%250A%2509%253Ci%2520class%253D%2522fas%2520fa-star%2520rating-star-icon%2522%253E%253C%252Fi%253E%250A%253C%252Flabel%253E%250A%253Clabel%253E%250A%2509%253Cinput%2520class%253D%2522rating-star-input%2522%2520type%253D%2522checkbox%2522%2520checked%253E%250A%2509%253Ci%2520class%253D%2522fas%2520fa-star%2520rating-star-icon%2522%253E%253C%252Fi%253E%250A%253C%252Flabel%253E%250A%253Clabel%253E%250A%2509%253Cinput%2520class%253D%2522rating-star-input%2522%2520type%253D%2522checkbox%2522%253E%250A%2509%253Ci%2520class%253D%2522fas%2520fa-star%2520rating-star-icon%2522%253E%253C%252Fi%253E%250A%253C%252Flabel%253E%250A%253Clabel%253E%250A%2509%253Cinput%2520class%253D%2522rating-star-input%2522%2520type%253D%2522checkbox%2522%253E%250A%2509%253Ci%2520class%253D%2522fas%2520fa-star%2520rating-star-icon%2522%253E%253C%252Fi%253E%250A%253C%252Flabel%253E"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
                 </code>
             </div>
-
-            <div class="component-container-display">
-                <h3>Number badge</h3>
-                <p>To show cart or notification count, you can use number badge. </p>
-                <div class="badge-container">
-                    <div class="profile-badge">
-                        <i class="fas fa-cart-plus number-badge-iframe"></i>
-                        <div class="badge badge-status-away">9</div>
-                    </div>
-                    <div class="profile-badge">
-                        <i class="far fa-envelope number-badge-iframe"></i>
-                        <div class="badge badge-status-busy">16</div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="code-snippet-display">
-                <code>
-                    <iframe
-                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=night-owl&wt=none&l=auto&width=680&ds=true&dsyoff=0px&dsblur=60px&wc=true&wa=true&pv=46px&ph=59px&ln=false&fl=1&fm=Hack&fs=18px&lh=164%25&si=false&es=2x&wm=false&code=%2520%2520%253Cdiv%2520class%253D%2522profile-badge%2522%253E%250A%2520%2520%2509%253Ci%2520class%253D%2522fas%2520fa-cart-plus%2520number-badge-iframe%2522%253E%253C%252Fi%253E%250A%2520%2520%2509%253Cdiv%2520class%253D%2522badge%2520badge-status-away%2522%253E9%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522profile-badge%2522%253E%250A%2520%2520%2509%253Ci%2520class%253D%2522far%2520fa-envelope%2520number-badge-iframe%2522%253E%253C%252Fi%253E%250A%2520%2520%2509%253Cdiv%2520class%253D%2522badge%2520badge-status-busy%2522%253E16%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E"
-                    sandbox="allow-scripts allow-same-origin">
-                  </iframe>
-                </code>
-            </div>
+        </main>
     </div>
 </body>
-
 </html>

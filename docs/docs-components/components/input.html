@@ -6,9 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/docs/documentation.css">
-    <script src="https://kit.fontawesome.com/ca8fcf3462.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/f4d4a5026f.js" crossorigin="anonymous"></script>
     <link rel="icon" href="/assets/icon.png" type="image/x-icon" />
-    <title>Magnet-UI | Alerts</title>
+    <title>Magnet-UI | Inputs</title>
 </head>
 
 <body>
@@ -83,7 +83,7 @@
                     </li>
                     <li class="navbar-item">
                         <a href="/docs/docs-components/components/alert.html">
-                            <button class="btn outline-secondary-btn active">
+                            <button class="btn outline-secondary-btn">
                                 <i class="fas fa-exclamation-circle mr-16">
                                 </i>Alert
                             </button>
@@ -117,7 +117,7 @@
                     </li>
                     <li class="navbar-item">
                         <a href="/docs/docs-components/components/input.html">
-                            <button class="btn outline-secondary-btn"><i
+                            <button class="btn outline-secondary-btn active"><i
                                     class="fas fa-keyboard mr-16"></i>Input</button>
                         </a>
                     </li>
@@ -145,7 +145,7 @@
                         </a>
                     </li>
                     <li class="navbar-item">
-                        <a href="/Magnet-UI/docs/docs-components/components/toast.html">
+                        <a href="/docs/docs-components/components/toast.html">
                             <button class="btn outline-secondary-btn"><i
                                     class="fas fa-bread-slice mr-16"></i>Toast</button>
                         </a>
@@ -164,124 +164,129 @@
                 </ul>
             </div>
         </div>
+
         <main class="main-container">
-            <h1>Alerts</h1>
-            <p>Alert messages can be used to notify the user about something special: danger, success, information or
-                warning.</p>
-
+            <h1>Input</h1>
+            <p>Inputs are necessary for user interaction with the website. Inputs are used to take information from the
+                user, and then save the data to the server, accordingly.</p>
             <div class="component-container-display">
-                <h3>Basic Alerts</h3>
-                <div class="alert-box alert-primary">
-                    This is a primary alert. Check it out!
+                <h3>Different Input Size and Shape</h3>
+                <div class="form-col">
+                    <label for="small-input" class="form-label form-label-required-field">Small Input</label>
+                    <input type="text" name="small-input" id="small-input" placeholder="Enter your username"
+                        class="input-sm">
                 </div>
-                <div class="alert-box alert-secondary">
-                    This is a secondary alert. Check it out!
+                <div class="form-col">
+                    <label for="small-input" class="form-label form-label-required-field">Medium Input</label>
+                    <input type="text" name="small-input" id="small-input" placeholder="Enter username"
+                        class="input-md">
                 </div>
-                <div class="alert-box alert-success">
-                    This is a success alert. Check it out!
+                <div class="form-col">
+                    <label for="small-input" class="form-label form-label-required-field">Large Input</label>
+                    <input type="text" name="small-input" id="small-input" placeholder="Enter username"
+                        class="input-lg">
                 </div>
-                <div class="alert-box alert-danger">
-                    This is a danger alert. Check it out!
+                <div class="form-col">
+                    <label for="small-input" class="form-label form-label-required-field">Input Rounded</label>
+                    <input type="text" name="small-input" id="small-input" placeholder="Enter username"
+                        class="input-lg input-round">
                 </div>
-                <div class="alert-box alert-warning">
-                    This is a warning alert. Check it out!
+                <div class="form-col">
+                    <label for="small-input" class="form-label form-label-required-field">Input corner rounded</label>
+                    <input type="text" name="small-input" id="small-input" placeholder="Enter username"
+                        class="input-lg input-corner-rounded">
                 </div>
             </div>
-
             <div class="code-snippet-display">
                 <code>
                     <iframe
-                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=night-owl&wt=none&l=auto&width=680&ds=true&dsyoff=0px&dsblur=60px&wc=true&wa=true&pv=46px&ph=59px&ln=false&fl=1&fm=Hack&fs=18px&lh=164%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert-box%2520alert-primary%2522%253E%250A%2509This%2520is%2520a%2520primary%2520alert.%2520Check%2520it%2520out%21%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert-box%2520alert-secondary%2522%253E%250A%2520%2520%2509This%2520is%2520a%2520primary%2520alert.%2520Check%2520it%2520out%21%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert-box%2520alert-success%2522%253E%250A%2520%2520%2520%2509This%2520is%2520a%2520primary%2520alert.%2520Check%2520it%2520out%21%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert-box%2520alert-danger%2522%253E%250A%2520%2520%2520%2509This%2520is%2520a%2520primary%2520alert.%2520Check%2520it%2520out%21%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert-box%2520alert-warning%2522%253E%250A%2520%2520%2520%2509This%2520is%2520a%2520primary%2520alert.%2520Check%2520it%2520out%21%250A%253C%252Fdiv%253E%250A"
-                        sandbox="allow-scripts allow-same-origin">
-                    </iframe>
-                </code>
-
-            </div>
-
-            <div class="component-container-display">
-                <h3>Alerts with icons</h3>
-                <div class="alert-box alert-primary">
-                    <span class="alert-icon">
-                        <i class="fas fa-info-circle">
-                        </i>
-                    </span>
-                    This is a primary alert. Check it out!
-                </div>
-                <div class="alert-box alert-success">
-                    <span class="alert-icon">
-                        <i class="fas fa-check-circle">
-                        </i>
-                    </span>
-                    This is a success alert. Check it out!
-                </div>
-                <div class="alert-box alert-danger">
-                    <span class="alert-icon">
-                        <i class="fas fa-exclamation-triangle">
-                        </i>
-                    </span>
-                    This is a danger alert. Check it out!
-                </div>
-                <div class="alert-box alert-warning">
-                    <span class="alert-icon">
-                        <i class="fas fa-exclamation-triangle">
-                        </i>
-                    </span>
-                    This is a warning alert. Check it out!
-                </div>
-            </div>
-
-            <div class="code-snippet-display">
-                <code>
-                    <iframe
-                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=night-owl&wt=none&l=auto&width=680&ds=true&dsyoff=0px&dsblur=60px&wc=true&wa=true&pv=46px&ph=59px&ln=false&fl=1&fm=Hack&fs=18px&lh=164%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert-box%2520alert-primary%2522%253E%250A%2509%253Cspan%2520class%253D%2522alert-icon%2522%253E%250A%2520%2520%2520%2520%2509%253Ci%2520class%253D%2522fas%2520fa-info-circle%2522%253E%250A%2520%2520%2520%2520%2509%253C%252Fi%253E%250A%2520%2520%2520%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520This%2520is%2520a%2520primary%2520alert.%2520Check%2520it%2520out%21%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert-box%2520alert-success%2522%253E%250A%2509%253Cspan%2520class%253D%2522alert-icon%2522%253E%250A%2520%2520%2520%2520%2509%253Ci%2520class%253D%2522fas%2520fa-check-circle%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fi%253E%250A%2509%253C%252Fspan%253E%250A%2520%2520%2520%2520This%2520is%2520a%2520primary%2520alert.%2520Check%2520it%2520out%21%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert-box%2520alert-danger%2522%253E%250A%2509%253Cspan%2520class%253D%2522alert-icon%2522%253E%250A%2520%2520%2520%2520%2509%253Ci%2520class%253D%2522fas%2520fa-exclamation-triangle%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fi%253E%250A%2520%2520%2520%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520This%2520is%2520a%2520primary%2520alert.%2520Check%2520it%2520out%21%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert-box%2520alert-warning%2522%253E%250A%2509%253Cspan%2520class%253D%2522alert-icon%2522%253E%250A%2520%2520%2520%2520%2509%253Ci%2520class%253D%2522fas%2520fa-exclamation-triangle%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fi%253E%250A%2520%2520%2520%2520%253C%252Fspan%253E%250A%2509This%2520is%2520a%2520primary%2520alert.%2520Check%2520it%2520out%21%250A%253C%252Fdiv%253E"
+                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=night-owl&wt=none&l=auto&width=680&ds=true&dsyoff=0px&dsblur=60px&wc=true&wa=true&pv=46px&ph=59px&ln=false&fl=1&fm=Hack&fs=18px&lh=164%25&si=false&es=2x&wm=false&code=%253Cinput%2520type%253D%2522text%2522%2520name%253D%2522small-input%2522%2520id%253D%2522small-input%2522%2520placeholder%253D%2522Enter%2520your%2520username%2522%2520class%253D%2522input-sm%2522%253E%250A%253Cinput%2520type%253D%2522text%2522%2520name%253D%2522small-input%2522%2520id%253D%2522small-input%2522%2520placeholder%253D%2522Enter%2520username%2522%2520class%253D%2522input-md%2522%253E%250A%253Cinput%2520type%253D%2522text%2522%2520name%253D%2522small-input%2522%2520id%253D%2522small-input%2522%2520placeholder%253D%2522Enter%2520username%2522%2520class%253D%2522input-lg%2522%253E%250A%253Cinput%2520type%253D%2522text%2522%2520name%253D%2522small-input%2522%2520id%253D%2522small-input%2522%2520placeholder%253D%2522Enter%2520username%2522%2520class%253D%2522input-lg%2520input-round%2522%253E%250A%253Cinput%2520type%253D%2522text%2522%2520name%253D%2522small-input%2522%2520id%253D%2522small-input%2522%2520placeholder%253D%2522Enter%2520username%2522%2520class%253D%2522input-lg%2520input-corner-rounded%2522%253E"
                         sandbox="allow-scripts allow-same-origin">
                     </iframe>
                 </code>
             </div>
 
             <div class="component-container-display">
-                <h3>Alerts with links</h3>
-                <div class="alert-box alert-primary">
-                    This is a primary alert.
-                    <a class="link-text">
-                        Check it out!
-                    </a>
+                <h3>Form Validation</h3>
+                <div class="form-col">
+                    <input type="text" name="small-input" id="small-input"
+                        class="input-md valid-input input-corner-rounded">
+                    <label for="small-input" class="form-label valid-txt">Success Input</label>
                 </div>
-                <div class="alert-box alert-secondary">
-                    This is a secondary alert.
-                    <a class="link-text">
-                        Check it out!
-                    </a>
+                <div class="form-col">
+                    <input type="text" name="small-input" id="small-input"
+                        class="input-md invalid-input input-corner-rounded">
+                    <label for="small-input" class="form-label invalid-txt">Error Input</label>
                 </div>
-                <div class="alert-box alert-success">
-                    This is a success alert.
-                    <a class="link-text">
-                        Check it out!
-                    </a>
+
+            </div>
+            <div class="code-snippet-display">
+                <code>
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=night-owl&wt=none&l=auto&width=680&ds=true&dsyoff=0px&dsblur=60px&wc=true&wa=true&pv=46px&ph=59px&ln=false&fl=1&fm=Hack&fs=18px&lh=164%25&si=false&es=2x&wm=false&code=%253Cinput%2520type%253D%2522text%2522%2520name%253D%2522small-input%2522%2520id%253D%2522small-input%2522%2520class%253D%2522input-md%2520valid-input%2520input-corner-rounded%2522%253E%250A%2520%253Cinput%2520type%253D%2522text%2522%2520name%253D%2522small-input%2522%2520id%253D%2522small-input%2522%2520class%253D%2522input-md%2520invalid-input%2520input-corner-rounded%2522%253E"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </code>
+            </div>
+
+            <div class="component-container-display">
+                <h3>Text Area</h3>
+                <textarea class="input-text-area"></textarea>
+            </div>
+            <div class="code-snippet-display">
+                <code>
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=night-owl&wt=none&l=auto&width=680&ds=true&dsyoff=0px&dsblur=60px&wc=true&wa=true&pv=46px&ph=59px&ln=false&fl=1&fm=Hack&fs=18px&lh=164%25&si=false&es=2x&wm=false&code=%253Ctextarea%2520class%253D%2522input-text-area%2522%253E%253C%252Ftextarea%253E"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </code>
+            </div>
+
+            <div class="component-container-display">
+                <h3>Checkbox</h3>
+                <div class="input-checkbox-container">
+                    <input class="input-checkbox" type="checkbox" checked="checked">
+                    <label>JavaScript</label>
                 </div>
-                <div class="alert-box alert-danger">
-                    This is a danger alert.
-                    <a class="link-text">
-                        Check it out!
-                    </a>
-                </div>
-                <div class="alert-box alert-warning">
-                    This is a warning alert.
-                    <a class="link-text">
-                        Check it out!
-                    </a>
+
+                <div class="input-checkbox-container">
+                    <input class="input-checkbox" type="checkbox">
+                    <label>React</label>
                 </div>
             </div>
 
             <div class="code-snippet-display">
                 <code>
                     <iframe
-                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=night-owl&wt=none&l=auto&width=680&ds=true&dsyoff=0px&dsblur=60px&wc=true&wa=true&pv=46px&ph=59px&ln=false&fl=1&fm=Hack&fs=18px&lh=164%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert-box%2520alert-primary%2522%253E%250A%2509This%2520is%2520a%2520primary%2520alert.%2520%250A%2509%253Ca%2520class%253D%2522link-text%2522%253E%250A%2509%2509Check%2520it%2520out%21%250A%2509%253C%252Fa%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert-box%2520alert-secondary%2522%253E%250A%2509This%2520is%2520a%2520secondary%2520alert.%2520%250A%2509%253Ca%2520class%253D%2522link-text%2522%253E%250A%2509%2509Check%2520it%2520out%21%250A%2509%253C%252Fa%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert-box%2520alert-success%2522%253E%250A%2509This%2520is%2520a%2520success%2520alert.%2520%250A%2509%253Ca%2520class%253D%2522link-text%2522%253E%250A%2509%2509Check%2520it%2520out%21%250A%2509%253C%252Fa%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert-box%2520alert-danger%2522%253E%250A%2509This%2520is%2520a%2520danger%2520alert.%2520%250A%2509%253Ca%2520class%253D%2522link-text%2522%253E%250A%2509%2509Check%2520it%2520out%21%250A%2509%253C%252Fa%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert-box%2520alert-warning%2522%253E%250A%2509This%2520is%2520a%2520warning%2520alert.%2520%250A%2509%253Ca%2520class%253D%2522link-text%2522%253E%250A%2509%2509Check%2520it%2520out%21%250A%2509%253C%252Fa%253E%250A%253C%252Fdiv%253E"
+                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=night-owl&wt=none&l=auto&width=680&ds=true&dsyoff=0px&dsblur=60px&wc=true&wa=true&pv=46px&ph=59px&ln=false&fl=1&fm=Hack&fs=18px&lh=164%25&si=false&es=2x&wm=false&code=%253Cinput%2520class%253D%2522input-checkbox%2522%2520type%253D%2522checkbox%2522%2520checked%253D%2522checked%2522%253E"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </code>
+            </div>
+
+            <div class="component-container-display">
+                <h3>Radio Input</h3>
+                <div class="input-checkbox-container">
+                    <input class="input-checkbox" type="radio" name="radio-input">
+                    <label>JavaScript</label>
+                </div>
+
+                <div class="input-checkbox-container">
+                    <input class="input-checkbox" type="radio" name="radio-input">
+                    <label>React</label>
+                </div>
+            </div>
+
+            <div class="code-snippet-display">
+                <code>
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=night-owl&wt=none&l=auto&width=680&ds=true&dsyoff=0px&dsblur=60px&wc=true&wa=true&pv=46px&ph=59px&ln=false&fl=1&fm=Hack&fs=18px&lh=164%25&si=false&es=2x&wm=false&code=%253Cinput%2520class%253D%2522input-checkbox%2522%2520type%253D%2522radio%2522%2520name%253D%2522radio-input%2522%253E"
                         sandbox="allow-scripts allow-same-origin">
                     </iframe>
                 </code>
             </div>
     </div>
+    </main>
 </body>
 
 </html>

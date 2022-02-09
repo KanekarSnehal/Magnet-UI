@@ -1,13 +1,16 @@
-.docs-navbar-container {
+.navbar-container {
     grid-area: nav;
-    font-size: 1.5rem;
-    padding: 1.5rem;
-    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    font-size: var(--size-20);
+    padding: 1rem;
+    box-shadow: 0px 4px 12px #0000001a;
     background-color: var(--bg-color);
     overflow-y: scroll;
     height: 88vh;
 }
+.nav-top-right .hamburger{
+    display: none;
+}
 
-.docs-navbar-section{
-    padding: 0.4rem 0rem;
+.navbar-heading{
+    font-size: var(--size-20);
 }

@@ -2,19 +2,57 @@
     --primary-color: #08AF91;
     --secondary-color: #253053;
 
-    --primary-light:#3BE2C4;
-    --primary-lighter:#6EFFF7;
-    --primary-dark:#007C5E;
-    --primary-darker:#006345;
+    --primary-light:#90dfd0;
+    --primary-lighter:#e6f7f4;
+    --primary-dark:#079e83;
+    --primary-darker:#1e7565;
 
-    --secondary-light:#586386;
-    --secondary-lighter:#A4AFD2;
-    --secondary-dark:#000020;
-    --secondary-darker:#03030f;
+    --secondary-light:#b5b8c2;
+    --secondary-lighter:#dfe2ec;
+    --secondary-dark:#212b4b;
+    --secondary-darker:#161d32;
 
     --text-color: #0c080c;
     --accent-color: #af7a6d;
-    --bg-color: white;
+    --bg-color: #ffffff;
     --alt-text-color: #d10d90;
-    --complement-btn-text-color: white;
+    --complement-btn-text-color: #ffffff;
+    --error-color:#da0303;
+    --error-dark-color:#bb0f0f;
+    --error-light-color:#eb9393;
+    --success-color:#0a8d0a;
+    --success-light-color:#6ccf6c;
+    --success-dark-color:#096209;
+
+    --yellow-color:#ffb400;
+    --yellow-light: #ffd675;
+
+    /* sizing */
+    --size-82: 10rem;
+    --size-78: 5rem;
+    --size-74: 4.75rem;
+    --size-72: 4.5rem;
+    --size-68: 4.25rem;
+    --size-64: 4rem;
+    --size-60: 3.75rem;
+    --size-56: 3.5rem;
+    --size-52: 3.25rem;
+    --size-48: 3rem;
+    --size-44: 2.75rem;
+    --size-40: 2.5rem;
+    --size-36: 2.25rem;
+    --size-32: 2rem;
+    --size-28: 1.75rem;
+    --size-24: 1.5rem;
+    --size-20: 1.25rem;
+    --size-16: 1rem;
+    --size-14: 0.875rem;
+    --size-12: 0.75rem;
+    --size-10: 0.625rem;
+    --size-8: 0.5rem;
+    --size-6: 0.375rem;
+    --size-4: 0.25rem;
+    --size-2: 0.125rem;
+    --size-1: 1px;
+    --size-0: 0;
 }

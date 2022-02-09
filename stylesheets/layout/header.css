@@ -6,14 +6,15 @@
     align-items: center;
     position:sticky;
     height: 12vh;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     top: 0;
     background-color: var(--bg-color);
 }
-.nav-link {
-    font-size: 1.5rem;
-    margin-left: auto;
-    font-weight: 600;
+.nav-top-right {
+    font-size: var(--size-32);
+    color: var(--secondary-color);
 }
+
 .logo-container {
     width: 20rem;
     display: flex;
@@ -22,11 +23,11 @@
 }
 
 .brand-logo {
-    width: 3.5rem;
+    width: 3rem;
 }
 
 .brand-name {
-    font-size: 2rem;
+    font-size: var(--size-24);
     color: var(--secondary-color);
     font-weight: bolder;
 }

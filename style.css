@@ -2,9 +2,29 @@
 @import url(stylesheets/base/variables.css);
 @import url(stylesheets/helpers/typography.css);
 @import url(stylesheets/helpers/spacing.css);
-@import url(button.css);
+@import url(components/button.css);
 @import url(stylesheets/layout/header.css);
-@import url(stylesheets/layout/main.css);
+@import url(stylesheets/base/utilities.css);
+
+.main-container {
+    padding: 2.5rem;
+    height: 88vh;
+    font-size: 1.5rem;
+}
+
+.main-title {
+    text-align: center;
+    font-size: 3.5rem;
+    color: var(--secondary-color);
+    margin: 2rem auto 0.5rem;
+}
+
+.main-description {
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 2rem;
+}
 
 .main-logo {
     width: 10rem;
@@ -21,6 +41,7 @@ a:hover {
         height: 100vh;
         overflow-y: scroll;
         font-size: 1.5rem;
+        margin: 4rem 0 0 0;
     }
 
     .main-logo {
@@ -34,9 +55,23 @@ a:hover {
     }
 }
 
+.btn-container {
+    justify-content: center;
+    gap: 2rem;
+    margin: 2rem;
+}
+
+.btn {
+    height: 4rem;
+    width:10rem;
+    font-size: 1.6rem;
+    margin: 0.5rem;
+}
+
 @media (max-width: 540px) {
     .main-container {
         padding: 0.2rem;
+        margin: 4rem 0 0 0;
     }
 
     .main-title {
@@ -47,7 +82,7 @@ a:hover {
     }
 
     .main-description {
-        font-size: 1.2rem;
+        font-size: 1.5rem;
         width: 90%;
         text-align: center;
     }
