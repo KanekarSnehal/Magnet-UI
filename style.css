@@ -1,10 +1,10 @@
-@import url(/Magnet-UI/stylesheets/base/reset.css);
+@import url(stylesheets/base/reset.css);
 @import url(stylesheets/base/variables.css);
 @import url(stylesheets/helpers/typography.css);
 @import url(stylesheets/helpers/spacing.css);
-@import url(/Magnet-UI/components/button.css);
-@import url(/Magnet-UI/stylesheets/layout/header.css);
-@import url(/Magnet-UI/stylesheets/base/utilities.css);
+@import url(components/button.css);
+@import url(stylesheets/layout/header.css);
+@import url(stylesheets/base/utilities.css);
 
 .main-container {
     padding: 2.5rem;
