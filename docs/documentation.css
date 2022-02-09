@@ -1,12 +1,3 @@
-@import url(/stylesheets/base/reset.css);
-@import url(/stylesheets/base/variables.css);
-@import url(/stylesheets/helpers/typography.css);
-@import url(/stylesheets/helpers/spacing.css);
-@import url(/stylesheets/layout/header.css);
-@import url(/stylesheets/layout/main.css);
-@import url(/stylesheets/layout/nav.css);
-@import url(/stylesheets/code/code.css);
-@import url(/stylesheets/base/utilities.css);
 @import url(/magnet.css);
 .documentation-page{
     display: grid;
