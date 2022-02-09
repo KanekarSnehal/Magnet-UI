@@ -1,3 +1,7 @@
+@import url(/stylesheets/layout/header.css);
+@import url(/stylesheets/layout/main.css);
+@import url(/stylesheets/layout/nav.css);
+@import url(/stylesheets/code/code.css);
 @import url(/magnet.css);
 .documentation-page{
     display: grid;
