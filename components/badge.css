@@ -11,6 +11,11 @@
     position: relative;
 }
 
+.icons-badge{
+    position: relative;
+}
+
+
 .badge {
     border-radius: 50%;
     border: 2px solid #fff;
@@ -68,7 +73,7 @@
     color: var(--secondary-color);
 }
 
-.profile-badge .number-badge-iframe~.badge {
+.icons-badge .number-badge-iframe~.badge {
     right: 1.2em;
     top: 1.2em;
     height: 1.5rem;
