@@ -14,3 +14,7 @@
 .navbar-heading{
     font-size: var(--size-20);
 }
+
+.navbar-container ul li a .btn{
+    width: 100%;
+}
