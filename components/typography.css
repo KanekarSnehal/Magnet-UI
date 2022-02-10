@@ -69,6 +69,12 @@ h6,
     font-weight: 700;
 }
 
+.text-regular-weight{
+    font-weight: 400;
+}
+.text-light-weight{
+    font-weight: 100;
+}
 .text-small-size {
     font-size: 0.875rem;
 }
