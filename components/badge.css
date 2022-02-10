@@ -68,14 +68,14 @@
 
 
 .number-badge-iframe {
-    padding: 2rem;
+    padding: 0.5rem;
     font-size: 1.5rem;
     color: var(--secondary-color);
 }
 
 .icons-badge .number-badge-iframe~.badge {
-    right: 1.5em;
-    top: 1.6em;
+    right: -0.5em;
+    top: -0.2em;
     height: 1.4rem;
     min-width: 1.4rem;
     text-align: center;
