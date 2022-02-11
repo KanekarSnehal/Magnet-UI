@@ -4,30 +4,24 @@
     margin: 1rem 0;
 }
 
-.form-label {
-    font-size: 1.25rem;
-    margin-bottom: 0.75rem;
-}
-
 .form-label-required-field:after {
     content: "*";
     color: var(--primary-color);
-    font-size: 2rem;
 }
 
 .input-sm {
-    font-size: 1rem;
-    padding: 0.25rem 0.5rem;
+    font-size: 0.8rem;
+    padding: 0.2rem 0.5rem;
 }
 
 .input-md {
-    font-size: 1.25rem;
-    padding: 0.6rem 0.625rem;
+    font-size: 1rem;
+    padding: 0.2rem 0.5rem;
 }
 
 .input-lg {
-    font-size: 1.5rem;
-    padding: 0.6rem 0.625rem;
+    font-size: 1.2rem;
+    padding: 0.4rem 0.6rem;
 }
 
 .input-round {
@@ -69,10 +63,9 @@
 
 .input-checkbox-container {
     margin: 1rem;
-
 }
 
 .input-checkbox {
-    width: 1.5rem;
-    height: 1.5rem;
+    width: 1rem;
+    height: 1rem;
 }
