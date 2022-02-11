@@ -103,7 +103,6 @@
     font-weight: bolder;
     font-size: var(--size-32);
     width: fit-content;
-    padding: 1rem;
 }
 
 .overlay-container {
