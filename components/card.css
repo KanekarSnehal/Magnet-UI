@@ -70,23 +70,25 @@
 }
 
 .card-badge {
-    border-radius: 0rem 2rem;
-    padding: 0.6rem;
+    border-radius: 0rem 1rem;
+    padding: 0.2rem;
     position: absolute;
-    top: 1rem;
+    top: 0;
     left: 0;
     color: white;
     background-color: var(--secondary-color);
+    font-size: var(--size-16);
 }
 
 .card-badge-dismiss{
     border-radius: 2rem 0rem 0rem 2rem;
-    padding: 0.5rem 1rem;
+    padding: 0.2rem 0.4rem;
     position: absolute;
     top: 0rem;
     right: 0;
     color: white;
     background-color: var(--primary-dark);
+    font-size: var(--size-16);
 }
 
 .card-text-overlay {
