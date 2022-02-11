@@ -5,11 +5,11 @@
 }
 
 .btn {
-    margin: 0.4rem;
+    margin: 0.5rem;
     height: fit-content;
     width: fit-content;
     border-radius: 0.5rem;
-    padding: 0.5rem;
+    padding: 0.3rem;
     display: inline-block;
     border: none;
 }
