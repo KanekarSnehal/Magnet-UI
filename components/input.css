@@ -66,6 +66,7 @@
 }
 
 .input-checkbox {
-    width: 1rem;
-    height: 1rem;
+    width: 0.9rem;
+    height: 0.9rem;
+    margin-right: 0.5rem;
 }
