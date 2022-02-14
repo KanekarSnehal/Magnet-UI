@@ -5,7 +5,7 @@
     flex-direction: row;
     align-items: center;
     position:sticky;
-    height: 12vh;
+    height: 10vh;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     top: 0;
     background-color: var(--bg-color);
@@ -16,14 +16,14 @@
 }
 
 .logo-container {
-    width: 20rem;
+    width: 15rem;
     display: flex;
     align-items: center;
     gap: 1rem;  
 }
 
 .brand-logo {
-    width: 3rem;
+    width: 2.5rem;
 }
 
 .brand-name {
