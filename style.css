@@ -5,126 +5,121 @@
 @import url(components/button.css);
 @import url(stylesheets/layout/header.css);
 @import url(stylesheets/base/utilities.css);
+@import url(components/image.css);
 
 .main-container {
-    padding: 2.5rem;
     height: 90vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 1rem;
+    gap: 2.5rem;
+    margin: 0 auto;
+    overflow-y: scroll;
+}
+
+.main-content {
+    padding: 8rem 2rem 0 0;
+    text-align: center;
+    margin-left: 2rem;
+}
+
+
+
+.hero-img {
+    padding: 0 2.5rem 1rem;
+    width: 100%;
+    height: 100%;
 }
 
 .main-title {
-    text-align: center;
     color: var(--secondary-color);
-    margin: 2rem auto 0.5rem;
 }
 
 .main-description {
-    text-align: center;
-    width: 80%;
-    margin: 0 auto;
     font-size: 1.5rem;
-}
-
-.main-logo {
-    width: 6rem;
-    display: block;
-    margin: 2rem auto;
 }
 
 a:hover {
     color: var(--primary-color);
 }
 
-.btn-container {
-    justify-content: center;
-    gap: 2rem;
-    margin: 2rem;
-}
 
 .btn {
     height: fit-content;
-    width:10rem;
+    width: 10rem;
     font-size: 1.6rem;
     margin: 0.5rem;
 }
 
-@media (max-width:1300px) {
+@media (max-width:1100px) {
     .main-container {
-        height: 100vh;
+        height: 90vh;
+        gap: 0rem;
         overflow-y: scroll;
-        font-size: 1.5rem;
-        margin: 4rem 0 0 0;
     }
 
-    .main-logo {
-        width: 6rem;
-        margin: 1rem auto;
-    }
-
-    .main-description {
-        width: 90%;
+    .main-content {
+        padding: 4rem 2rem 0 0;
         text-align: center;
     }
+
+
+    .main-description {
+        text-align: center;
+    }
+
+    .hero-img {
+        padding: 0 2.5rem 1rem;
+        height: 35rem;
+        width: 40em;
+    }
+
 }
 
 
-@media (max-width: 540px) {
+
+@media (max-width: 840px) {
     .main-container {
-        padding: 0.2rem;
-        margin: 4rem 0 0 0;
+        display: grid;
+        overflow-y: scroll;
+        grid-template-columns: 1fr;
+        padding: 0 1rem;
+        gap: 2.5rem;
+        margin: 0 auto;
+    }
+
+    .main-content {
+        margin: 1rem;
+        padding: 2rem;
+    }
+
+
+
+    .hero-img {
+        width: 30rem;
+        height: 30rem;
+        margin: 0 auto;
     }
 
     .main-title {
-        text-align: center;
-        font-size: 1.6rem;
         color: var(--secondary-color);
-        margin: 0.5rem;
     }
 
     .main-description {
-        font-size: 1.5rem;
-        width: 90%;
+        font-size: 1.2rem;
         text-align: center;
     }
 
+    a:hover {
+        color: var(--primary-color);
+    }
+
+
     .btn {
-        height: 3rem;
-        width: 10.5rem;
-        font-size: 1.2rem;
+        height: fit-content;
+        width: 6rem;
+        font-size: 1rem;
         margin: 0.5rem;
     }
 
-    .btn-container {
-        margin: 1rem;
-        text-align: center;
-    }
-
-    .header-container {
-        position: sticky;
-        height: 12vh;
-        top: 0;
-        background-color: var(--bg-color);
-    }
-
-    .brand-logo {
-        width: 2rem;
-    }
-
-    .nav-link {
-        display: none;
-    }
-
-    .logo-container {
-        width: 20rem;
-    }
-
-    .main-logo {
-        width: 3rem;
-        margin: 0rem auto;
-    }
-
-    .brand-name {
-        font-size: 1.2rem;
-        color: var(--secondary-color);
-        font-weight: bolder;
-    }
 }
