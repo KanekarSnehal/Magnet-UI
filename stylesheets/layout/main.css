@@ -2,8 +2,8 @@
     grid-area: main;
     padding: 0 2rem;
     overflow-y: scroll;
-    height: 88vh;
-    font-size: 1.2rem;
+    height: 90vh;
+    /* font-size: 1.2rem; */
 }
 
 .main-title {

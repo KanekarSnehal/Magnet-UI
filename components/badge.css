@@ -10,6 +10,11 @@
     position: relative;
 }
 
+.icons-badge{
+    position: relative;
+}
+
+
 .badge {
     border-radius: 50%;
     border: 2px solid #fff;

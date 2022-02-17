@@ -172,7 +172,7 @@
             <p>For heading u can use h1, h2, h3, h4, h5, h6 elements. <br>
                 The same font-styling is present for class names <span class="primary-color">h1, h2, h3,
                     h4,
-                    h5, h6</span> class. You can add one of these classes to style the text.</p>
+                    h5, h6</span> class.</p>
             <div class="component-container-display">
 
                 <h1>H1-Heading</h1>
@@ -186,18 +186,13 @@
             <div class="code-snippet-display">
                 <code>
                     <iframe
-                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=night-owl&wt=none&l=auto&width=680&ds=true&dsyoff=0px&dsblur=60px&wc=true&wa=true&pv=46px&ph=59px&ln=false&fl=1&fm=Hack&fs=18px&lh=164%25&si=false&es=2x&wm=false&code=%253Ch1%253EH1-Heading%253C%252Fh1%253E%250A%253Ch2%253EH2-Heading%253C%252Fh2%253E%250A%253Ch3%253EH3-Heading%253C%252Fh3%253E%250A%253Ch4%253EH4-Heading%253C%252Fh4%253E%250A%253Ch5%253EH5-Heading%253C%252Fh5%253E%250A%253Ch6%253EH6-Heading%253C%252Fh6%253E%250A%250A%253C%21--%2520Style%2520text%2520with%2520class%2520--%253E%250A%253Cdiv%2520class%253D%2522h1%2522%253EH1-Heading%253C%252Fdiv%253E%250A%253Ch3%2520class%253D%2522h4%2522%253EH4-Heading%253C%252Fh3%253E"
+                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=night-owl&wt=none&l=auto&width=680&ds=true&dsyoff=0px&dsblur=60px&wc=true&wa=true&pv=46px&ph=59px&ln=false&fl=1&fm=Hack&fs=18px&lh=164%25&si=false&es=2x&wm=false&code=%253Ch1%253EH1-Heading%253C%252Fh1%253E%250A%253Ch2%253EH2-Heading%253C%252Fh2%253E%250A%253Ch3%253EH3-Heading%253C%252Fh3%253E%250A%253Ch4%253EH4-Heading%253C%252Fh4%253E%250A%253Ch5%253EH5-Heading%253C%252Fh5%253E%250A%253Ch6%253EH6-Heading%253C%252Fh6%253E%250A%253Ch3%2520class%253D%2522h4%2522%253EH4-Heading%253C%252Fh3%253E"
                         sandbox="allow-scripts allow-same-origin">
                     </iframe>
                 </code>
             </div>
             <h3>Paragraph text</h3>
-            <p>For paragraph u can use p element. <br>
-                The same font-styling is present for class name <span class="primary-color">p,
-                   p-rg</span> class. You can add one of these classes to style the text.
-                <br>Other than this if you want to adjust text to small or large, you can use <span
-                    class="primary-color">p-lg, p-sm</span> class.
-            </p>
+            <p>For paragraph u can use p element along with given class.</p>
             <div class="component-container-display">
 
                 <p class="p-lg">P-Paragraph-body-copy-large</p>
@@ -220,7 +215,9 @@
             <div class="component-container-display">
 
                 <h4 class="text-center">H4-Heading Text Align Center</h4>
+                <hr>
                 <h5 class="text-left">H5-Heading Text Align left</h5>
+                <hr>
                 <h6 class="text-right">H6-Heading Text Align right</h6>
             </div>
 
@@ -240,7 +237,7 @@
                     class</li>
                 <li>To make text bold (weight: 700), add <span class="primary-text-color">text-bold-weight</span>
                     class</li>
-              
+
                 <li>To make text small in size (12px), add <span class="primary-text-color">text-small-size</span>
                     class</li>
                 <li>To make text color change there are 2 class, add one of the classes <span
@@ -249,7 +246,7 @@
 
 
             <div class="component-container-display">
-                <p>You can use the mark tag to <mark class="text-mark">highlight</mark> text.</p>
+                <p>You can use the mark tag to <mark class="text-highlight">highlight</mark> text.</p>
                 <p class="text-strike-through">This line of text is meant to be treated as no longer accurate.
                 </p>
                 <p class="text-bold-weight">Text with bold font weight</p>
@@ -261,12 +258,13 @@
             <div class="code-snippet-display">
                 <code>
                     <iframe
-                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=night-owl&wt=none&l=auto&width=680&ds=true&dsyoff=0px&dsblur=60px&wc=true&wa=true&pv=46px&ph=59px&ln=false&fl=1&fm=Hack&fs=18px&lh=164%25&si=false&es=2x&wm=false&code=%253Cp%253EYou%2520can%2520use%2520the%2520mark%2520tag%2520to%2520%253Cmark%2520class%253D%2522text-mark%2522%253Ehighlight%253C%252Fmark%253E%2520text.%253C%252Fp%253E%250A%253Cp%2520class%253D%2522text-strike-through%2522%253EThis%2520line%2520of%2520text%2520is%2520meant%2520to%2520be%2520treated%2520as%2520no%2520longer%2520accurate.%253C%252Fp%253E%250A%253Cp%2520class%253D%2522text-bold-weight%2522%253EText%2520with%2520bold%2520font%2520weight%253C%252Fp%253E%250A%253Cp%253E%253Csmall%2520class%253D%2522text-small-size%2522%253ESmall%2520size%2520text%253C%252Fsmall%253E%253C%252Fp%253E%250A%253Cp%2520class%253D%2522primary-text-color%2522%253EText%2520with%2520primary-color%253C%252Fp%253E%250A%253Cp%2520class%253D%2522secondary-text-color%2522%253EText%2520with%2520secondary-color%253C%252Fp%253E"
-                    sandbox="allow-scripts allow-same-origin">
-                  </iframe>
+                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=night-owl&wt=none&l=auto&width=680&ds=true&dsyoff=0px&dsblur=60px&wc=true&wa=true&pv=46px&ph=59px&ln=false&fl=1&fm=Hack&fs=18px&lh=164%25&si=false&es=2x&wm=false&code=%253Cp%253EYou%2520can%2520use%2520the%2520mark%2520tag%2520to%2520%253Cmark%2520class%253D%2522text-highlight%2522%253Ehighlight%253C%252Fmark%253E%2520text.%253C%252Fp%253E%250A%253Cp%2520class%253D%2522text-strike-through%2522%253EThis%2520line%2520of%2520text%2520is%2520meant%2520to%2520be%2520treated%2520as%2520no%2520longer%2520accurate.%253C%252Fp%253E%250A%253Cp%2520class%253D%2522text-bold-weight%2522%253EText%2520with%2520bold%2520font%2520weight%253C%252Fp%253E%250A%253Cp%253E%253Csmall%2520class%253D%2522text-small-size%2522%253ESmall%2520size%2520text%253C%252Fsmall%253E%253C%252Fp%253E%250A%253Cp%2520class%253D%2522primary-text-color%2522%253EText%2520with%2520primary-color%253C%252Fp%253E%250A%253Cp%2520class%253D%2522secondary-text-color%2522%253EText%2520with%2520secondary-color%253C%252Fp%253E"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
                 </code>
             </div>
         </main>
     </div>
 </body>
+
 </html>
