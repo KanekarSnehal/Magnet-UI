@@ -21,8 +21,8 @@
     background-color: var(--primary-color);
 }
 .avatar-lg-size{
-    width: 13.5rem;
-    height: 13.5rem;
+    width: 12.5rem;
+    height: 12.5rem;
     font-size: var(--size-32);
 }
 
