@@ -1,6 +1,5 @@
 .badge-container {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
     align-items: baseline;
     width: 100%;
@@ -38,47 +37,56 @@
     background-color: gray;
 }
 
-.profile-badge .avatar-lg-size~.badge {
-    bottom: 1rem;
-    right: 1.5rem;
+.badge-lg-size{
     height: 2rem;
-    min-width: 2rem;
+    width: 2rem;
 }
 
-.profile-badge .avatar-md-size~.badge {
-    right: 0.8em;
-    bottom: 0.6em;
+.badge-md-size {
     height: 1.6rem;
-    min-width: 1.6rem;
+    width: 1.6rem;
 }
 
-.profile-badge .avatar-sm-size~.badge {
-    right: 0.6em;
-    bottom: 0.5em;
+.badge-sm-size {
     height: 1.4rem;
-    min-width: 1.4rem;
+    width: 1.4rem;
 }
 
-.profile-badge .avatar-xs-size~.badge {
-    right: 0.2em;
-    bottom: 0.2em;
+.badge-xs-size{
     height: 1.2rem;
-    min-width: 1.2rem;
+    width: 1.2rem;
 }
-
 
 .number-badge-iframe {
-    padding: 0.5rem;
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: var(--secondary-color);
+    padding: 1.5rem;
 }
 
-.icons-badge .number-badge-iframe~.badge {
-    right: -0.5em;
-    top: -0.2em;
-    height: 1.4rem;
-    min-width: 1.4rem;
+
+.badge-bottom-right{
+    bottom: 6%;
+    right: 10%;
+}
+
+.badge-top-right {
+    top: 6%;
+    right: 10%;
+}
+
+.badge-top-left{
+    top: 6%;
+    left: 10%;
+}
+
+.badge-bottom-left{
+    bottom: 6%;
+    left: 10%;
+}
+
+.badge-number{
+    width: fit-content;
+    height: fit-content;
+    padding: 0.1rem 0.3rem;
     text-align: center;
-    color: #fff;
-    font-size: 0.8rem;
 }
