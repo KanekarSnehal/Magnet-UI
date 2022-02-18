@@ -8,7 +8,7 @@
 }
 
 .horizontal-card-container .card-image {
-    width: 15rem;
+    width: rem;
     height: 15rem;
 }
 
@@ -33,7 +33,7 @@
 }
 
 .card-content {
-    padding: 0.5rem 1rem;
+    padding: 1rem;
 }
 
 .card-author {
