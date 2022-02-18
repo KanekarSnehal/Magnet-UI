@@ -6,11 +6,7 @@
     gap: 4rem;
 }
 
-.profile-badge {
-    position: relative;
-}
-
-.icons-badge{
+.position-relative{
     position: relative;
 }
 
@@ -58,9 +54,8 @@
 }
 
 .number-badge-iframe {
-    font-size: 2rem;
+    font-size: 1.75rem;
     color: var(--secondary-color);
-    padding: 1.5rem;
 }
 
 
@@ -87,6 +82,10 @@
 .badge-number{
     width: fit-content;
     height: fit-content;
-    padding: 0.1rem 0.3rem;
+    padding: 0.2rem 0.4rem;
     text-align: center;
+    font-size: var(--size-10);
+    color: var(--primary-lighter);
+    right: -0.875rem;
+    top: -0.625rem;
 }
