@@ -1,0 +1,72 @@
+.header-container {
+    grid-area: header;
+    width: 100%;
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position:sticky;
+    height: 8vh;
+    top: 0;
+    background-color: var(--bg-color);
+}
+
+.logo-container {
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.brand-logo {
+    width: 2.2rem;
+}
+
+.brand-name {
+    font-size: var(--size-20);
+    color: var(--secondary-color);
+    font-weight: bolder;
+}
+
+.header-links{
+    font-size: var(--size-20);
+}
+
+.search-input {
+    display: flex;
+    position: relative;
+    flex-basis: 20%;
+}
+  
+.search-icon {
+    font-size: var(--size-16);
+    position: absolute;
+    top: 50%;
+    transform: translate(50%, -50%);
+    color: var(--secondary-color);
+}
+  
+.search-input input {
+    padding-left: var(--size-36);
+    width: 100%;
+}
+  
+.header-icons{
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.active-link{
+    font-weight: 600;
+    color: var(--primary-color);
+    text-decoration: underline;
+    text-underline-position: under;
+    text-decoration-thickness: 3px;
+}
+
+.number-badge-iframe.active-icons{
+    font-weight: 600;
+    color: var(--primary-color);
+}
