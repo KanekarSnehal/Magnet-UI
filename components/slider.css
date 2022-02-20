@@ -1,0 +1,9 @@
+.slider{
+    width: 100%;
+}
+
+.slider-datalist{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
