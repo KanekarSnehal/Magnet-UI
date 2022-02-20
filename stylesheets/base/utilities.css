@@ -4,11 +4,15 @@
 }
 
 .px-16 {
-    padding: 0 1rem;
+    padding: 0 var(--size-16);
 }
 
 .px-32 {
-    padding: 0 2rem;
+    padding: 0 var(--size-32);
+}
+
+.px-64{
+    padding: 0 var(--size-64);
 }
 
 .py-8 {
@@ -21,6 +25,10 @@
 
 .py-32 {
     padding: var(--size-32) 0;
+}
+
+.py-64 {
+    padding: var(--size-64) 0;
 }
 
 /* Margin */
