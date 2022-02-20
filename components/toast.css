@@ -1,0 +1,56 @@
+.btn-toast {
+    border: none;
+    color: var(--primary-color);
+    background-color: transparent;
+    padding:0.5rem;
+    margin: 5px;
+    border-radius: 0.5rem;
+  }
+  
+  .toast {
+    display: flex;
+    align-items: center;
+    padding: 0rem 0.5rem;
+    border-radius: 8px;
+    width: fit-content;
+    margin: 2rem;
+    background-color: var(--secondary-darker);
+    color: var(--complement-btn-text-color);
+    box-shadow: 0 0 10px var(--secondary-light); 
+  }
+  
+  .wrong-btn {
+    padding: 0.5rem;
+    border-radius: 50%;
+  }
+  
+  .btn-toast:hover,
+  .wrong-btn:hover {
+    background-color: var(--secondary-color);
+  }
+  
+  .baseline {
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: 0 auto 1rem auto;
+  }
+  
+  .leading {
+    bottom: 0;
+  }
+  
+  .stacked {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto 1rem auto;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  
+  .toast-pos{
+    display: none;
+    position: fixed;
+    z-index: 10;
+  }
