@@ -1,0 +1,42 @@
+.grid {
+    display: grid;
+}
+
+.gap-1rem {
+    gap: 1rem;
+}
+
+.grid-50-50 {
+    grid-template-columns: 1fr 1fr;
+}
+
+.grid-30-70 {
+    grid-template-columns: 30% 70%;
+}
+
+.grid-3-column {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.grid-container {
+    grid-template-areas: "header header header"
+        "menu main main"
+        "menu footer footer";
+    grid-template-columns: 0.5fr 1fr 1fr
+}
+
+.header {
+    grid-area: header;
+}
+
+.menu {
+    grid-area: menu;
+}
+
+.main {
+    grid-area: main;
+}
+
+.footer {
+    grid-area: footer;
+}

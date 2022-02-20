@@ -19,6 +19,9 @@
     padding: 1rem 0;
 }
 
+.py-32 {
+    padding: var(--size-32) 0;
+}
 
 /* Margin */
 .mx-8 {
