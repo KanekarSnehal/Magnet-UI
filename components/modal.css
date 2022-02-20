@@ -1,0 +1,24 @@
+.modal-container{
+    border: 1px solid var(--secondary-light);
+    width: 50%;
+    height: 30rem;
+    background-color: var(--primary-lighter);
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-content{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 2.5rem;
+    text-align: center;
+}
+
+.modal-btn-container{
+    display: flex;
+    margin: 1rem;
+    justify-content: center;
+    gap: 1rem;
+}

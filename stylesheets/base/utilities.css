@@ -91,3 +91,11 @@
 .primary-color{
     color: var(--primary-color);
 }
+
+.position-absolute{
+    position: absolute;
+}
+
+.position-relative{
+    position: relative;
+}
