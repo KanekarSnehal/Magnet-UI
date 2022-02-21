@@ -206,4 +206,4 @@ You can check out the simple slider [here](https://magnet-ui.netlify.app/docs/do
 
 ## Documentation Website Overview
 
-![powertrainui demo gif](/assets/Magnet-UI-Overview.gif)
+![magnetui overview gif](/assets/Magnet-UI-Overview.gif)
