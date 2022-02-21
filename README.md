@@ -1,6 +1,6 @@
 # Magnet UI
 
-![Logo](/assets/icon.png)
+  <img style="height: 2rem" src="/assets/icon.png">
 
 Magnet UI is free, open sourced library that provides ready-to-use frontend components and it is user-friendly and customizable. Spend less time in designing and concentrate more on logic without hustling on UI.
 
