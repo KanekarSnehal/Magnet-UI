@@ -46,32 +46,3 @@
     background-color: var(--secondary-dark);
     color: var(--complement-btn-text-color);
 }
-
-  @media (max-width:1280px){
-
-    .documentation-page{
-      display: grid;
-      grid-template-columns: 0.6fr 1fr 1fr 1fr;
-      grid-template-rows: 0.2fr 5fr 0.3fr;
-      grid-template-areas: "header header header header"
-                            "nav nav nav nav"
-                            "main main main main";         
-  }
-    .nav-top-right .github,
-    .nav-top-right .home{
-        display: none;
-    } 
-    
-    .nav-top-right .hamburger{
-        display: block;
-    }
-
-    .navbar-container{
-        display: block;
-        width: 100%;
-        background-color: var(--primary-light);
-        position: sticky;
-        top: 0;
-        left: 0;
-    }
-}
