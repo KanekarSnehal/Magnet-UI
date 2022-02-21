@@ -70,3 +70,18 @@
     font-weight: 600;
     color: var(--primary-color);
 }
+
+@media screen and (max-width:1024px) {
+    .nav-top-right {
+        font-size: var(--size-20);
+    }
+    .brand-logo {
+        width: 2rem;
+    }
+    .brand-name {
+        font-size: var(--size-16);
+    }
+    .header-container{
+        padding: 1rem;
+    }
+}
