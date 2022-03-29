@@ -11,10 +11,14 @@
     background-color: var(--bg-color);
 }
 .nav-top-right {
+    display: flex;
     font-size: var(--size-32);
     color: var(--secondary-color);
 }
 
+.nav-top-right a{
+    margin: 0.5rem;
+}
 .logo-container {
     width: 15rem;
     display: flex;
@@ -30,4 +34,19 @@
     font-size: var(--size-24);
     color: var(--secondary-color);
     font-weight: bolder;
+}
+
+@media screen and (max-width:1024px) {
+    .nav-top-right {
+        font-size: var(--size-20);
+    }
+    .brand-logo {
+        width: 2rem;
+    }
+    .brand-name {
+        font-size: var(--size-16);
+    }
+    .header-container{
+        padding: 1rem;
+    }
 }

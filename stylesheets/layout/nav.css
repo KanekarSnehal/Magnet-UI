@@ -5,16 +5,51 @@
     box-shadow: 0px 4px 12px #0000001a;
     background-color: var(--bg-color);
     overflow-y: scroll;
-    height: 88vh;
+    height: 90vh;
 }
-.nav-top-right .hamburger{
+
+.nav-top-right .hamburger {
     display: none;
 }
 
-.navbar-heading{
+.navbar-heading {
     font-size: var(--size-20);
 }
 
-.navbar-container ul li a .btn{
+.navbar-container ul li a .btn {
     width: 100%;
+}
+
+.mobile-nav {
+    height: 100vh;
+    width: 70vw;
+    background-color: var(--secondary-light);
+    z-index: 200;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transition: all 0.4s ease-in-out;
+    display: none;
+}
+
+.mobile-nav ul {
+    font-size: var(--size-20);
+}
+
+.mobile-nav .fa-times {
+    top: 1rem;
+    right: 1rem;
+    font-size: 2rem;
+}
+
+@media screen and (max-width:1024px) {
+    .navbar-container {
+        display: none;
+    }
+
+    .nav-top-right .hamburger {
+        display: block;
+    }
+
+    
 }
