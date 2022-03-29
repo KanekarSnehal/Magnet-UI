@@ -8,115 +8,104 @@
 @import url(components/image.css);
 
 .main-container {
-    height: 90vh;
-    display: flex;
-    padding: 0 1rem;
-    gap: 2.5rem;
-    margin: 0 auto;
-    overflow-y: scroll;
+  height: 90vh;
+  display: flex;
+  padding: 0 1rem;
+  gap: 2.5rem;
+  margin: 0 auto;
+  overflow-y: scroll;
 }
 
 .main-content {
-    padding: 8rem 2rem 0 2rem;
-    text-align: center;
-    margin-left: 0 auto;
+  padding: 8rem 2rem 0 2rem;
+  text-align: center;
+  margin-left: 0 auto;
 }
 
-
-
 .hero-img {
-    width: 50%;
-    height: 100%;
-    padding: 1rem;
+  width: 50%;
+  height: 100%;
+  padding: 1rem;
 }
 
 .main-title {
-    color: var(--secondary-color);
+  color: var(--secondary-color);
 }
 
 .main-description {
-    font-size: 1.5rem;
+  font-size: 1.5rem;
 }
 
 a:hover {
-    color: var(--primary-color);
+  color: var(--primary-color);
 }
-
 
 .btn {
+  height: fit-content;
+  font-size: 1.6rem;
+  margin: 0.5rem;
+  width: fit-content;
+}
+
+@media (max-width: 1100px) {
+  .main-container {
     height: fit-content;
-    width: 10rem;
-    font-size: 1.6rem;
-    margin: 0.5rem;
+    gap: 0rem;
+    overflow-y: scroll;
+  }
+
+  .main-content {
+    padding: 4rem 2rem 0 0;
+    text-align: center;
+  }
+
+  .main-description {
+    text-align: center;
+  }
+
+  .hero-img {
+    height: 35rem;
+    width: 35rem;
+  }
 }
-
-@media (max-width:1100px) {
-    .main-container {
-        height: fit-content;
-        gap: 0rem;
-        overflow-y: scroll;
-    }
-
-    .main-content {
-        padding: 4rem 2rem 0 0;
-        text-align: center;
-    }
-
-
-    .main-description {
-        text-align: center;
-    }
-
-    .hero-img {
-        height: 35rem;
-        width: 35rem;
-    }
-
-}
-
-
 
 @media (max-width: 840px) {
-    .main-container {
-        display: grid;
-        overflow-y: scroll;
-        grid-template-columns: 1fr;
-        padding: 0 1rem;
-        margin: 0 auto;
-    }
+  .main-container {
+    display: grid;
+    overflow-y: scroll;
+    grid-template-columns: 1fr;
+    padding: 0 1rem;
+    margin: 0 auto;
+  }
 
-    .main-content {
-        margin: 1rem;
-        padding: 2rem;
-    }
+  .main-content {
+    margin: 1rem;
+    padding: 2rem;
+  }
 
+  .hero-img {
+    width: 20rem;
+    height: 20rem;
+    margin: 0 auto;
+  }
 
+  .main-title {
+    color: var(--secondary-color);
+  }
 
-    .hero-img {
-        width: 20rem;
-        height: 20rem;
-        margin: 0 auto;
-    }
+  .main-description {
+    font-size: 1.2rem;
+    text-align: center;
+  }
 
-    .main-title {
-        color: var(--secondary-color);
-    }
+  a:hover {
+    color: var(--primary-color);
+  }
 
-    .main-description {
-        font-size: 1.2rem;
-        text-align: center;
-    }
-
-    a:hover {
-        color: var(--primary-color);
-    }
-
-
-    .btn {
-        height: fit-content;
-        width: 6rem;
-        font-size: 1rem;
-        margin: 0.5rem;
-    }
-
+  .btn {
+    height: fit-content;
+    width: 6rem;
+    font-size: 1rem;
+    margin: 0.5rem;
+  }
 }
