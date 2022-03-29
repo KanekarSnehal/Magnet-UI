@@ -1,109 +1,123 @@
 /* Padding */
 .px-8 {
-    padding: 0 8px;
+  padding-right: 8px;
+  padding-left: 8px;
 }
 
 .px-16 {
-    padding: 0 var(--size-16);
+  padding-right: var(--size-16);
+  padding-left: var(--size-16);
 }
 
 .px-32 {
-    padding: 0 var(--size-32);
+  padding-right: var(--size-32);
+  padding-left: var(--size-32);
 }
 
-.px-64{
-    padding: 0 var(--size-64);
+.px-64 {
+  padding-right: var(--size-64);
+  padding-left: var(--size-64);
 }
 
 .py-8 {
-    padding: 8px 0;
+  padding-top: 8px;
+  padding-bottom: 8px;
 }
 
 .py-16 {
-    padding: 1rem 0;
+  padding-top: 16px;
+  padding-bottom: 16px;
 }
 
 .py-32 {
-    padding: var(--size-32) 0;
+  padding-top: var(--size-32);
+  padding-bottom: var(--size-32);
 }
 
 .py-64 {
-    padding: var(--size-64) 0;
+  padding-top: var(--size-64);
+  padding-bottom: var(--size-64);
 }
 
 /* Margin */
 .mx-8 {
-    margin: 0 var(--size-8);
+  margin-right: var(--size-8);
+  margin-left: var(--size-8);
 }
 
 .mx-16 {
-    margin: 0 var(--size-16);
+  margin-right: var(--size-16);
+  margin-left: var(--size-16);
 }
 
 .my-8 {
-    margin: var(--size-8) 0;
+  margin-top: var(--size-8);
+  margin-bottom: var(--size-8);
 }
 
 .my-16 {
-    margin: var(--size-16) 0;
+  margin-top: var(--size-16);
+  margin-bottom: var(--size-16);
 }
 
 .my-32 {
-    margin: var(--size-32) 0;
+  margin-top: var(--size-32);
+  margin-bottom: var(--size-32);
 }
 
 .my-48 {
-    margin: var(--size-48) 0;
+  margin-top: var(--size-48);
+  margin-bottom: var(--size-48);
 }
 
 .mx-auto {
-    margin: 0 auto;
+  margin: 0 auto;
 }
 
 .ml-auto {
-    margin-left: auto;
+  margin-left: auto;
 }
 
 .mr-auto {
-    margin-right: auto;
+  margin-right: auto;
 }
 
 .ml-16 {
-    margin-left: var(--size-16);
+  margin-left: var(--size-16);
 }
 
 .ml-32 {
-    margin-left: var(--size-32);
+  margin-left: var(--size-32);
 }
 
 .ml-64 {
-    margin-left: var(--size-64);
+  margin-left: var(--size-64);
 }
 
 .mr-sm {
-    margin-right: var(--size-8);
+  margin-right: var(--size-8);
 }
 
 .mr-16 {
-    margin-right: var(--size-16);
+  margin-right: var(--size-16);
 }
 
 .mr-32 {
-    margin-right: var(--size-32);
+  margin-right: var(--size-32);
 }
 
 .mr-64 {
-    margin-right: var(--size-64);
+  margin-right: var(--size-64);
 }
 
-.primary-color{
-    color: var(--primary-color);
+.primary-color {
+  color: var(--primary-color);
 }
 
-.position-absolute{
-    position: absolute;
+.position-absolute {
+  position: absolute;
 }
 
-.position-relative{
-    position: relative;
+.position-relative {
+  position: relative;
 }
