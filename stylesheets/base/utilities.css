@@ -128,3 +128,13 @@
 .position-relative {
   position: relative;
 }
+
+.display-flex-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.display-flex-column {
+  display: flex;
+  flex-direction: column;
+}
