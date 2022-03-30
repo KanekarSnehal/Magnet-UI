@@ -82,6 +82,13 @@
   margin-right: auto;
 }
 
+.mt-auto {
+  margin-top: auto;
+}
+.mb-auto {
+  margin-bottom: auto;
+}
+
 .ml-16 {
   margin-left: var(--size-16);
 }
