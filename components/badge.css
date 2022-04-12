@@ -89,3 +89,7 @@
     right: -0.875rem;
     top: -0.6rem;
 }
+
+.badge-sm-size{
+    font-size: 1.2rem;
+}
