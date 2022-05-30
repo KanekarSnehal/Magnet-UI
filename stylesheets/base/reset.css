@@ -48,7 +48,9 @@ h6 {
   overflow-wrap: break-word;
 }
 
-
+img{
+  object-fit: cover;
+}
 
 a {
   text-decoration: none;
